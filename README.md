@@ -1,8 +1,39 @@
 # Tab Hollow
 
-A cozy, gamified new-tab project starting from [Clover Hollow](https://github.com/Awesomedonut/clover-hollow).
+A little farm for your new tab, starting from [Clover Hollow](https://github.com/Awesomedonut/clover-hollow).
 
-This initial version preserves the playable pixel-art farm, crops, quests, inventory, browser saves, and bundled artwork. New-tab browser integration and productivity features are planned.
+The farm is playable now: grow crops, finish quests, manage your inventory, and save your progress in the browser. The Brave extension and productivity features are still to come.
+
+## Making it your Brave new tab
+
+Brave supports Chrome extensions that replace the new-tab page. The plan is to package Tab Hollow as a Manifest V3 extension, with the farm and its assets included in the download.
+
+The manifest points new tabs at the extension's own page:
+
+~~~json
+"chrome_url_overrides": {
+  "newtab": "index.html"
+}
+~~~
+
+That's a fragment of the planned manifest, not a complete extension yet. Once packaged, opening a new tab will load Tab Hollow directly. It will work offline, without a redirect or a running web server. The VM won't need to be online for you to use it.
+
+For development, we'll build the extension on the VM and copy the finished folder to the Mac. In Brave, open brave://extensions, turn on **Developer mode**, choose **Load unpacked**, and select that folder. Brave runs the extension locally; source edits, builds, and tests stay on the VM.
+
+A hosted version would still be useful for previews and sharing a link.
+
+## What belongs on the page
+
+Search, shortcuts, and today's tasks should be easy to reach as soon as a tab opens. The farm can sit beside them or in the background, with room to expand it when you want to play.
+
+The idea is for completed tasks and focus sessions to help the farm grow. Opening more tabs shouldn't be the way to earn progress.
+
+A few things need to work before this becomes an everyday new tab:
+
+- Share one farm across open tabs. An older tab must not overwrite progress made in a newer one.
+- Pause animation and unnecessary work in background tabs.
+- Keep search and tasks usable without entering the game.
+- Keep saves on the device, with no account required.
 
 ## Development
 
