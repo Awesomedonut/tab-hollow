@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "url": "http://127.0.0.1:5896/assets/index-yGLAxfiU.js",
+      "sha256": "a2addfda2fb0a03660d8a8b7e92f4952e5da175f8215f25f04b6d82028933fef",
+      "matchesBuild": true
+    },
+    {
+      "url": "http://127.0.0.1:5896/assets/ridgeside-terrain/terrain.png",
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "matchesBuild": true
+    }
+  ],
+  "unitTests": 18,
+  "browserTests": 5,
+  "sourceReproduction": "source PNG, map and output SHA256 verified",
+  "scope": "east shoulder follow-up; earlier turf/earth implementation preserved"
+}

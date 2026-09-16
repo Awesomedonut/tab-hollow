@@ -1,0 +1,91 @@
+{
+  "checkout": "210454b20f4732a28d18c4d9ab1baf3f1e8e3f6e",
+  "workingTree": "?? docs/screenshots/world-20260916T122336Z/",
+  "origin": "http://127.0.0.1:6238",
+  "capturedAt": "2026-09-16T12:34:02.553Z",
+  "captures": [
+    {
+      "name": "desktop",
+      "path": "docs/screenshots/world-20260916T122336Z/built-before/desktop.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:6238/assets/index-DocSVFT8.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    },
+    {
+      "name": "desktop-16x9",
+      "path": "docs/screenshots/world-20260916T122336Z/built-before/desktop-16x9.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:6238/assets/index-DocSVFT8.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/screenshots/world-20260916T122336Z/built-before/touch.png",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:6238/assets/index-DocSVFT8.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    }
+  ],
+  "diagnostic": {
+    "path": "docs/screenshots/world-20260916T122336Z/built-before/pond-camera-diagnostic.png",
+    "player": {
+      "x": 29,
+      "y": 20.8
+    },
+    "note": "Camera/player relocation only; no crop, day or inventory fixture."
+  },
+  "sourceOverride": {
+    "path": "src/world-art.js",
+    "sourceGitRevision": "85def9b",
+    "sha256": "667a3b02190205d203b12522ff7509f8cac6a9fcba3137806e76508b74fffff2",
+    "method": "Vite pre-transform source override for this module only; isolated output /tmp/clover-world-baseline-122336 on port6238. All other source/assets equal final build."
+  }
+}

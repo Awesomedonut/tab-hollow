@@ -1,0 +1,134 @@
+
+> clover-hollow@0.1.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: first release can be completed from a fresh save without cheats or extra purchases
+ok 1 - first release can be completed from a fresh save without cheats or extra purchases
+  ---
+  duration_ms: 2.162389
+  type: 'test'
+  ...
+# Subtest: dry crops pause growth, daily water resets, and mature crops survive more nights
+ok 2 - dry crops pause growth, daily water resets, and mature crops survive more nights
+  ---
+  duration_ms: 0.333565
+  type: 'test'
+  ...
+# Subtest: invalid or repeat tool actions never consume resources
+ok 3 - invalid or repeat tool actions never consume resources
+  ---
+  duration_ms: 0.688341
+  type: 'test'
+  ...
+# Subtest: zero energy blocks work but does not trap the player or block harvesting
+ok 4 - zero energy blocks work but does not trap the player or block harvesting
+  ---
+  duration_ms: 0.399975
+  type: 'test'
+  ...
+# Subtest: seed shop exchanges exact pack price and rejects insufficient funds
+ok 5 - seed shop exchanges exact pack price and rejects insufficient funds
+  ---
+  duration_ms: 0.207051
+  type: 'test'
+  ...
+# Subtest: movement respects buildings, pond and border even on a slow frame
+ok 6 - movement respects buildings, pond and border even on a slow frame
+  ---
+  duration_ms: 0.431428
+  type: 'test'
+  ...
+# Subtest: diagonal movement is normalized and wall sliding remains possible
+ok 7 - diagonal movement is normalized and wall sliding remains possible
+  ---
+  duration_ms: 0.271711
+  type: 'test'
+  ...
+# Subtest: clock sleeps once at midnight and ignores invalid or excessive background deltas
+ok 8 - clock sleeps once at midnight and ignores invalid or excessive background deltas
+  ---
+  duration_ms: 0.974111
+  type: 'test'
+  ...
+# Subtest: save roundtrip preserves farm, inventory and mission progress without transient effects
+ok 9 - save roundtrip preserves farm, inventory and mission progress without transient effects
+  ---
+  duration_ms: 0.95242
+  type: 'test'
+  ...
+# Subtest: corrupt or untrusted saves cannot inject malformed terrain, position or inventory
+ok 10 - corrupt or untrusted saves cannot inject malformed terrain, position or inventory
+  ---
+  duration_ms: 0.601334
+  type: 'test'
+  ...
+# Subtest: context uses closest station, and space targets the tile the farmer faces
+ok 11 - context uses closest station, and space targets the tile the farmer faces
+  ---
+  duration_ms: 0.19783
+  type: 'test'
+  ...
+# Subtest: shop roof is solid and the visible pond pier is walkable up to its edge
+ok 12 - shop roof is solid and the visible pond pier is walkable up to its edge
+  ---
+  duration_ms: 0.180287
+  type: 'test'
+  ...
+# Subtest: staggered starter groups preserve the crop budget and grow through real watering
+ok 13 - staggered starter groups preserve the crop budget and grow through real watering
+  ---
+  duration_ms: 0.508422
+  type: 'test'
+  ...
+# Subtest: shipping chest blocks overlap while the garden row and south interaction stay usable
+ok 14 - shipping chest blocks overlap while the garden row and south interaction stay usable
+  ---
+  duration_ms: 0.149613
+  type: 'test'
+  ...
+# Subtest: stone well blocks its basin while the garden and shop approach remain open
+ok 15 - stone well blocks its basin while the garden and shop approach remain open
+  ---
+  duration_ms: 0.17537
+  type: 'test'
+  ...
+# Subtest: native farmhouse walls block the west wing and old saves recover without losing farm resources
+ok 16 - native farmhouse walls block the west wing and old saves recover without losing farm resources
+  ---
+  duration_ms: 0.25777
+  type: 'test'
+  ...
+# Subtest: new farms retain empty prepared cells across four beds while loaded farms retain their soil state
+ok 17 - new farms retain empty prepared cells across four beds while loaded farms retain their soil state
+  ---
+  duration_ms: 0.653699
+  type: 'test'
+  ...
+# Subtest: additional prepared beds can grow and sell real crops while routes remain clear
+ok 18 - additional prepared beds can grow and sell real crops while routes remain clear
+  ---
+  duration_ms: 1.054294
+  type: 'test'
+  ...
+# Subtest: spawn tutorial and station routes work without relocating the farmer
+ok 19 - spawn tutorial and station routes work without relocating the farmer
+  ---
+  duration_ms: 0.890144
+  type: 'test'
+  ...
+# Subtest: original six-plant browser saves retain exact stages, watering and inventory
+ok 20 - original six-plant browser saves retain exact stages, watering and inventory
+  ---
+  duration_ms: 0.556185
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 72.410158

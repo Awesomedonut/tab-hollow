@@ -1,0 +1,61 @@
+{
+  "title": "[LPC] Terrains",
+  "source": "https://github.com/DrJamgo/love2d-lpc-tiles/blob/1220f3a8e19791a2a041ed203097014cd665822a/terrain-v7.png",
+  "sourceSha256": "d098d23fbe6bb51b53f5d719d05a8e620d393f9d831bb14d2ed201b650163b7b",
+  "license": "CC-BY-SA-3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "tileSize": 32,
+  "crops": [
+    {
+      "file": "grass-lime.png",
+      "sourceRect": [
+        96,
+        224,
+        96,
+        224
+      ],
+      "change": "Crop only."
+    },
+    {
+      "file": "grass-clump-0.png",
+      "sourceRect": [
+        96,
+        384,
+        32,
+        32
+      ],
+      "change": "Exact flat grass background color made transparent; authored blades unchanged."
+    },
+    {
+      "file": "grass-clump-1.png",
+      "sourceRect": [
+        128,
+        384,
+        32,
+        32
+      ],
+      "change": "Exact flat grass background color made transparent; authored blades unchanged."
+    },
+    {
+      "file": "grass-clump-2.png",
+      "sourceRect": [
+        160,
+        384,
+        32,
+        32
+      ],
+      "change": "Exact flat grass background color made transparent; authored blades unchanged."
+    },
+    {
+      "file": "grass-clump-3.png",
+      "sourceRect": [
+        160,
+        416,
+        32,
+        32
+      ],
+      "change": "Exact flat grass background color made transparent; authored blades unchanged."
+    }
+  ],
+  "mirrorCommit": "1220f3a8e19791a2a041ed203097014cd665822a"
+}

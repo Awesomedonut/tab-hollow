@@ -1,0 +1,41 @@
+{
+  "origin": "http://127.0.0.1:6796",
+  "build": "/home/codex/projects/clover-worker-world/.artifacts/world-20260916T132356Z/build",
+  "assets": [
+    {
+      "path": "/index.html",
+      "status": 200,
+      "bytes": 6785,
+      "sha256": "c68cc5b092c6400c66fdc6036879ba0fc3b29e96f18f423042843c4172fef9ed",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/index-CaKZ5Zb5.js",
+      "status": 200,
+      "bytes": 43689,
+      "sha256": "11f5c7770736b35df940be5cb2765cd62ad6014a82f3d26b7a683097ead7f5b3",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/ridgeside-terrain/terrain.png",
+      "status": 200,
+      "bytes": 61125,
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/soil.png",
+      "status": 200,
+      "bytes": 4685,
+      "sha256": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/turnip-stages.png",
+      "status": 200,
+      "bytes": 1018,
+      "sha256": "5c5e221d559f77fccffdd7eac393ed121db584ab717a6d0a2b3a8fed3e93deee",
+      "matchesBuild": true
+    }
+  ]
+}

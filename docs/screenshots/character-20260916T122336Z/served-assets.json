@@ -1,0 +1,9 @@
+{
+  "origin": "http://127.0.0.1:6137",
+  "sha256": {
+    "assets/index-BtEpmkww.js": "eefe8eaf10cd19db9a9b8e4ac5c7a7855c5dfb1f514faa9bece676740cf6473e",
+    "assets/native-farming/turnip-stages.png": "cbc62ac884205a5244383552ddc400f6ec08c4e06dc39696038d6edefcda1ca7",
+    "assets/original-farm/tool-hoe.png": "02991f24f6f029c0ddf79e1a509751c4f3f68b7aac991faaf5e3ac81e130c898",
+    "assets/original-farm/tool-seeds.png": "41cf391c5597872adca08e446128d132dc3c613a2435f15653fb8201cfdd1b15"
+  }
+}

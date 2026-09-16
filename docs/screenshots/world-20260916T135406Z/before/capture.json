@@ -1,0 +1,85 @@
+{
+  "checkout": "6571a06e64034be555bef194dd11a17a4587aa2e",
+  "workingTree": "",
+  "origin": "http://127.0.0.1:6996",
+  "capturedAt": "2026-09-16T14:00:19.606Z",
+  "captures": [
+    {
+      "name": "desktop",
+      "path": "docs/screenshots/world-20260916T135406Z/before/desktop.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:6996/assets/index-CaKZ5Zb5.js"
+        ],
+        "tilled": 24,
+        "crops": 12
+      }
+    },
+    {
+      "name": "desktop-16x9",
+      "path": "docs/screenshots/world-20260916T135406Z/before/desktop-16x9.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:6996/assets/index-CaKZ5Zb5.js"
+        ],
+        "tilled": 24,
+        "crops": 12
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/screenshots/world-20260916T135406Z/before/touch.png",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:6996/assets/index-CaKZ5Zb5.js"
+        ],
+        "tilled": 24,
+        "crops": 12
+      }
+    }
+  ],
+  "diagnostic": {
+    "path": "docs/screenshots/world-20260916T135406Z/before/pond-camera-diagnostic.png",
+    "player": {
+      "x": 29,
+      "y": 20.8
+    },
+    "note": "Camera/player relocation only; no crop, day or inventory fixture."
+  }
+}

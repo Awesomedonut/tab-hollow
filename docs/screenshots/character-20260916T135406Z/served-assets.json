@@ -1,0 +1,39 @@
+{
+  "origin": "http://127.0.0.1:6927",
+  "scripts": [
+    "/assets/index-CVFvGRiF.js"
+  ],
+  "integrity": [
+    {
+      "path": "/assets/index-CVFvGRiF.js",
+      "status": 200,
+      "sha256": "bd2473a95d92285bcb8bf147742972e7b90144841661a1501ae1d8e873c1ac62",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/turnip-stages.png",
+      "status": 200,
+      "sha256": "72858de2b2a427dccc46a626a4173cc0f3ca1263847318dab9a46e3abb95676d",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/source-soil-patch.png",
+      "status": 200,
+      "sha256": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/soil.png",
+      "status": 200,
+      "sha256": "a5ae57e05d0b93557ae1a0189299f7029e2085203a251ea54537ee68dca05880",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/ian-side-work.png",
+      "status": 200,
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "servedMatchesBuild": true
+    }
+  ],
+  "errors": []
+}

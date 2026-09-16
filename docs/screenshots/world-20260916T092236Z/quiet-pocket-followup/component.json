@@ -1,0 +1,18 @@
+{
+  "kind": "Source component diagnostic, no foreground sprites. Not a fresh gameplay screenshot.",
+  "origin": "http://127.0.0.1:5483",
+  "sourceSha256": "38fcdcf5ec71c38ea84ecd8abc21bcebccd8679788db043fde83a15bbdc1f288",
+  "images": [
+    "component-cycle-0",
+    "component-cycle-1",
+    "component-cycle-2",
+    "component-cycle-3",
+    "component-ground-native",
+    "component-grass-4x",
+    "component-west-edge-4x",
+    "component-shore-4x",
+    "component-shore-frame4-4x"
+  ],
+  "nativePixelScale": 1,
+  "detailPixelScale": 4
+}

@@ -1,0 +1,53 @@
+{
+  "implementationCommit": "3ae5b61302eb3dc5163166b9de5bc268544e5c1d",
+  "integratedMain": "4d0b951",
+  "previewOrigin": "http://127.0.0.1:7836",
+  "build": "passed",
+  "unitTests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "browserTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "strengthenedTerrainTests": {
+    "passed": 2,
+    "failed": 0
+  },
+  "nativeOpenLawnShadowMetric": {
+    "before": {
+      "shadowPixels": 8151,
+      "pixels": 14336,
+      "fraction": 0.5685686383928571
+    },
+    "final": {
+      "shadowPixels": 136,
+      "pixels": 14336,
+      "fraction": 0.009486607142857142
+    }
+  },
+  "visuallyOpened": [
+    "original source sheet",
+    "new quiet source strip",
+    "official turf-comparison-4x.png (local reference only)",
+    "native before-after lawn and bank",
+    "desktop",
+    "desktop-16x9",
+    "touch",
+    "touch-sold-reloaded",
+    "built-cycle-0.png phases0..31",
+    "built-cycle-1.png phases32..63",
+    "built-cycle-2.png phases64..95",
+    "built-cycle-3.png phases96..127"
+  ],
+  "fidelityAccepted": false,
+  "remaining": [
+    "small native lawn stipple repeats",
+    "shade stand boundaries remain visible",
+    "broad cobbled lower shelf",
+    "angular upper outline",
+    "recognizable bright current groups"
+  ],
+  "noDeployment": true
+}

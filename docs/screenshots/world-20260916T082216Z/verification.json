@@ -1,0 +1,47 @@
+{
+  "strictAcceptance": false,
+  "branch": "overnight/world",
+  "mergedOriginMain": "7ead154",
+  "build": "index-BbBDaIUn.js",
+  "loopbackPort": 5393,
+  "freshState": {
+    "tilled": 24,
+    "emptyPrepared": 18,
+    "crops": 6,
+    "seeds": 12,
+    "coins": 80
+  },
+  "checks": {
+    "unit": "18/18",
+    "playwright": "4/4",
+    "pondLoopBoundary": "passed",
+    "addedBedsBuiltGameplay": "10 crops grown, harvested, sold; 330g/2 seeds/10 sold/24 tilled after reload",
+    "assetReproduction": "source PNG, TMX and shipped PNG SHA256 passed",
+    "diffWhitespace": "passed"
+  },
+  "sha256": {
+    "src/world-art.js": "2f585894a5cb5344f7419fcc9da5d691c23212f02cb2b8dc4b371f8748c6d1fe",
+    "src/game.js": "ce6a22323b40a9b84b74e301c7bd974d60fba68d91ae25c19bc78a39539e3a0d",
+    "dist/assets/index-BbBDaIUn.js": "4deebf3617c84a36b21b248a70d1946c487cc50c5a672c40b054113597c58e57",
+    "public/assets/ridgeside-terrain/terrain.png": "f34372ed9e84546b6689cdd16c14b8f74066aad39981203ac36a1a54ce8ed79a"
+  },
+  "reviewed": [
+    "desktop.png",
+    "desktop-16x9.png",
+    "touch.png",
+    "ground/component-grass-4x.png",
+    "ground/component-west-edge-4x.png",
+    "ground/component-shore-4x.png",
+    "ground/component-shore-frame4-4x.png",
+    "pond-camera-diagnostic.png",
+    "pond-camera-1000ms.png",
+    "gameplay-added-beds-ripe.png"
+  ],
+  "remaining": [
+    "Repeated meadow blade vocabulary",
+    "Simple empty soil silhouettes",
+    "Angular shore transitions and limited crest vocabulary",
+    "House roof clipped at 810px; wider farm cropped on touch"
+  ],
+  "referenceOnly": "/home/codex/research/clover-reference/stardew-2.jpg; prior monitor comparison /home/codex/research/clover-overnight/reviews/20260916T082216Z/"
+}

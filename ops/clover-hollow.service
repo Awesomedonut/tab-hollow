@@ -1,0 +1,12 @@
+[Unit]
+Description=Clover Hollow static game
+After=network.target
+[Service]
+Type=simple
+WorkingDirectory=/home/codex/projects/clover-hollow/dist
+ExecStart=/usr/bin/python3 -m http.server 4173 --bind 127.0.0.1
+Restart=on-failure
+RestartSec=3
+NoNewPrivileges=true
+[Install]
+WantedBy=default.target

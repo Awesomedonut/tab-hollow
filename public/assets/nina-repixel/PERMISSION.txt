@@ -1,0 +1,27 @@
+Nina — Stardew Valley Item RePixel (No Fish)
+
+Author: Nina
+Source: https://misnina.itch.io/stardew-valley-item-repixel
+Author: https://misnina.itch.io/
+Credit link requested by the author in the source-page comments:
+https://mastodon.art/@misnina
+
+Downloaded archive: stardew_V3.zip
+Selected original file: stardew/crops/1x_19.png (16 × 16 RGBA)
+Included unchanged as: source-radish-1x_19.png
+Adapted runtime file: turnip.png
+
+The author's source-page permission states:
+"These are free to use for anything you want, even beyond using them in the game itself. If you enjoy them though, think about leaving a tip!"
+
+This is the author's published permission statement, not a CC0 or other
+standardized license designation. The pack is described by its author as
+Stardew Valley assets repixeled in their own style. Clover Hollow is not
+affiliated with or endorsed by Nina or Stardew Valley's creators.
+
+Adaptation by Clover Hollow: recolored only the original root pixels to a
+cream bulb and purple shoulder. Native size, leaf colors, silhouette and
+alpha channel are unchanged. See adapt-turnip.py and docs/REPIXEL.md for
+exact mapping and reproduction. The original PNG is retained for provenance.
+
+Source page inspected on 2026-09-15.

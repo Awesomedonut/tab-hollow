@@ -1,0 +1,37 @@
+{
+  "implementationCommit": "7ff1363199d153e7e5e6bde2ab5196f26e21707a",
+  "unitTests": "18/18 pass",
+  "browserTests": "5/5 pass; farming/sell/buy/save, touch/reset/recovery, actions, pond and soil",
+  "sourceReproduction": "Original PNG, native TMX animation, unchanged output SHA256 verified",
+  "build": "index-DsIEmlHH.js",
+  "servedFiles": [
+    {
+      "url": "http://127.0.0.1:5548/assets/index-DsIEmlHH.js",
+      "sha256": "58cbb0509acf8a4f787c69b35dbf1aca81a3210664b2580e0c8ec3e1d460ea83",
+      "matchesBuiltFile": true
+    },
+    {
+      "url": "http://127.0.0.1:5548/assets/ridgeside-terrain/terrain.png",
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "matchesBuiltFile": true
+    }
+  ],
+  "visualInspection": [
+    "fresh 1440x1000 desktop",
+    "fresh 1440x810 desktop with full roof at integer 2x",
+    "fresh 390x844 isMobile+hasTouch, one touchpoint/coarse pointer",
+    "4x grass, unobscured west-earth edge and both bank orientations",
+    "equal-scale retained official reference6 grass comparison (VM-only)",
+    "all 128 built pond samples across four sheets, plus enlarged 16s detail"
+  ],
+  "touchGameplay": "Real touchscreen till/plant/water/three sleeps/harvest/sell/reload: day4,105g,one sold,11seeds; no errors",
+  "strictVisualAcceptance": false,
+  "remaining": [
+    "Short-turf cell vocabulary and some diagonal blade repetition still visible",
+    "Dark stand texture remains coarser and cooler than official reference",
+    "Small peaks on rising right lower bank and limited native foam/rock vocabulary",
+    "Plain prepared beds and sparse crop forms remain outside this terrain change",
+    "Phone view retains controls but shows restricted farm area"
+  ],
+  "scope": "VM-only isolated overnight/world; no deployment, main checkout edits, existing port changes or external messaging"
+}

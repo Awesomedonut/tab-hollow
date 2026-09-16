@@ -1,0 +1,85 @@
+{
+  "checkout": "1fc745bd1af326ef3f61187f6a5e555578b00fbd",
+  "workingTree": "M src/world-art.js\n?? docs/screenshots/world-20260916T105306Z/irregular-joins/",
+  "origin": "http://127.0.0.1:5686",
+  "capturedAt": "2026-09-16T11:08:46.810Z",
+  "captures": [
+    {
+      "name": "desktop",
+      "path": "docs/screenshots/world-20260916T105306Z/irregular-joins/desktop.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5686/assets/index-OHioxGDa.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    },
+    {
+      "name": "desktop-16x9",
+      "path": "docs/screenshots/world-20260916T105306Z/irregular-joins/desktop-16x9.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5686/assets/index-OHioxGDa.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/screenshots/world-20260916T105306Z/irregular-joins/touch.png",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:5686/assets/index-OHioxGDa.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    }
+  ],
+  "diagnostic": {
+    "path": "docs/screenshots/world-20260916T105306Z/irregular-joins/pond-camera-diagnostic.png",
+    "player": {
+      "x": 29,
+      "y": 20.8
+    },
+    "note": "Camera/player relocation only; no crop, day or inventory fixture."
+  }
+}

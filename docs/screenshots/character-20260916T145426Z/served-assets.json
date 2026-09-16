@@ -1,0 +1,28 @@
+{
+  "origin": "http://127.0.0.1:7127",
+  "implementation": "72a89e2ea1ff0df97c72550604ca37a3e9b3d75d",
+  "files": {
+    "assets/native-farming/soil.png": {
+      "sha256": "abe23776dcec4b701cfe52863c0f007d9569eed45bc91abf96722773fbaba10b",
+      "matchesBuiltBytes": true
+    },
+    "assets/native-farming/turnip-stages.png": {
+      "sha256": "0290e76766bcda3eba234a0ace456ca308c5ff6d69e541bc6356bc112920fc27",
+      "matchesBuiltBytes": true
+    },
+    "assets/original-farm/hud-wood.svg": {
+      "sha256": "589f28aaf69350506a6f307e0abc422859fb4db159da38b2524593a9468dc023",
+      "matchesBuiltBytes": true
+    },
+    "assets/index-Cf5SePF_.js": {
+      "sha256": "afe7892f22997e01d28ae9f66e36b834c9fdcd7c52d046c13c2372e643915d45",
+      "matchesBuiltBytes": true
+    },
+    "assets/index-B3yDm7jU.css": {
+      "sha256": "d3ced9f3285be0e9174b8e54fd36714d920381d400d565ac2b43e7d115852bba",
+      "matchesBuiltBytes": true
+    }
+  },
+  "earlyStages": "All six early-stage cells byte-identical to before; 64x96 geometry and color set unchanged.",
+  "ianUnchanged": true
+}

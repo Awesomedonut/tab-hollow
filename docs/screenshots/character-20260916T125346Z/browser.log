@@ -1,0 +1,14 @@
+
+> clover-hollow@0.1.0 test:e2e
+> playwright test
+
+
+Running 5 tests using 1 worker
+
+  ✓  1 tests/browser.spec.js:6:1 › browser completes first harvest, sells, buys and restores its save (4.0s)
+  ✓  2 tests/browser.spec.js:64:1 › click tools, mobile touch controls, reset confirmation and invalid-save recovery (3.0s)
+  ✓  3 tests/character-actions.spec.js:3:1 › action poses keep native boots fixed, mirror watering and finish on idle (687ms)
+  ✓  4 tests/world-art.spec.js:6:1 › native pond frames animate beneath a stable pier and preserve dry corners (1.4s)
+  ✓  5 tests/world-art.spec.js:88:1 › connected soil keeps wet/dry masks and updates cached joins after tilling (669ms)
+
+  5 passed (10.4s)

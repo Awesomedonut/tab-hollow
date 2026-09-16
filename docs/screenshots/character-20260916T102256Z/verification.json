@@ -1,0 +1,48 @@
+{
+  "iteration": "20260916T102256Z",
+  "implementationCommit": "a84b65f",
+  "loopback": "http://127.0.0.1:5627",
+  "productionScript": "index-BTYaDwP0.js",
+  "unitTests": {
+    "passed": 18
+  },
+  "playwright": {
+    "passed": 5,
+    "includes": [
+      "desktop harvest/sell/buy/save",
+      "genuine touch/reset/recovery",
+      "fixed action boots/mirror/idle",
+      "animated pond",
+      "soil wet/dry alpha/cache/joins"
+    ]
+  },
+  "expandedWorldChecks": {
+    "passed": 2,
+    "newSoilAssertions": [
+      "six-cell mixed wet/dry alpha equality",
+      "opaque seams between prepared cells",
+      "shallow irregular exposed rim"
+    ]
+  },
+  "build": "passed",
+  "sourceIntegrity": "asset-integrity.json",
+  "growth": "Actual watering/sleep UI; player travel shortened, growth never injected",
+  "touchCycle": "touch/touch-gameplay.json",
+  "visualReview": {
+    "inspected": [
+      "fresh desktop 1440x1000",
+      "fresh desktop 1440x810",
+      "genuine touch 390x844",
+      "UI-grown ripe crops at native 1x and 4x",
+      "VM-only official comparison",
+      "actual soil component dry/wet/concave shapes"
+    ],
+    "strictAcceptance": false,
+    "remaining": [
+      "Leaf shapes still stylized and simpler than reference; repeated species/crowns.",
+      "Soil has comparatively quiet interiors and broad rectangular bed envelopes.",
+      "Phone view remains restricted; props/HUD deferred."
+    ]
+  },
+  "deployment": false
+}

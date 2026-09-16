@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/index.html",
+    "status": 200,
+    "sha256": "38772bef55c07f6bd9dc6b7ed797ee51604dc79388d24e000fc93d09b29b14ab",
+    "servedMatchesBuild": true
+  },
+  {
+    "path": "/assets/index-Dt95A8hn.js",
+    "status": 200,
+    "sha256": "4b3f0130937c8d1a20ef30c79da483ad80b9945c4fd8fe6ce51eb0014a4f2ba5",
+    "servedMatchesBuild": true
+  },
+  {
+    "path": "/assets/ridgeside-terrain/terrain.png",
+    "status": 200,
+    "sha256": "f31defbcb0d480fc743d47b8826eb898d0994b7e5af907eb5094394c52337bce",
+    "servedMatchesBuild": true
+  },
+  {
+    "path": "/assets/native-farming/turnip-stages.png",
+    "status": 200,
+    "sha256": "72858de2b2a427dccc46a626a4173cc0f3ca1263847318dab9a46e3abb95676d",
+    "servedMatchesBuild": true
+  }
+]

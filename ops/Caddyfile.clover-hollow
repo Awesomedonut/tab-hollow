@@ -1,0 +1,8 @@
+clover-hollow.20-119-164-122.sslip.io {
+    encode zstd gzip
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy no-referrer
+    }
+    reverse_proxy 127.0.0.1:4173
+}

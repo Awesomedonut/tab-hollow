@@ -1,0 +1,17 @@
+{
+  "reconstruction": "python3 ops/build-ridgeside-terrain.py ORIGINAL_PNG ORIGINAL_TMX: passed source, map and output assertions",
+  "files": [
+    {
+      "path": "/home/codex/research/mod-art/rsv-zrsvspiritrealm.png",
+      "sha256": "794c95c44c089c86d0eca0c1733aeef2100f07dde2b3060d6db485c5b76b1929"
+    },
+    {
+      "path": "/home/codex/research/mod-art/rsv-spiritrealm.tmx",
+      "sha256": "03629d919ee2307148807f0f02c8c010bc10ec0a2c27540b9f2f9f1841795c2c"
+    },
+    {
+      "path": "public/assets/ridgeside-terrain/terrain.png",
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a"
+    }
+  ]
+}

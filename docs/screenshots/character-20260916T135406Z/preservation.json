@@ -1,0 +1,15 @@
+{
+  "unchanged": [
+    "public/assets/ridgeside-character/ian-walk.png",
+    "public/assets/ridgeside-character/source-Ian.png",
+    "src/character-poses.js",
+    "public/assets/native-farming/ian-side-work.png",
+    "public/assets/native-farming/soil.png"
+  ],
+  "firstTwoEarlyStagePairsUnchanged": true,
+  "atlasSize": [
+    64,
+    96
+  ],
+  "cropSha256": "72858de2b2a427dccc46a626a4173cc0f3ca1263847318dab9a46e3abb95676d"
+}

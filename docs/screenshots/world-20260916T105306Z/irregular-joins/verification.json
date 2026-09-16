@@ -1,0 +1,36 @@
+{
+  "preservedImplementation": "7ff1363199d153e7e5e6bde2ab5196f26e21707a",
+  "mainMerge": "1fc745b",
+  "build": "index-OHioxGDa.js",
+  "unitTests": "18/18 pass",
+  "browserTests": "5/5 pass; farming/sell/buy/save, touch/reset/recovery, action, pond, soil",
+  "sourceReproduction": "Original PNG, TMX and output hashes verified unchanged",
+  "servedFiles": [
+    {
+      "url": "http://127.0.0.1:5686/assets/index-OHioxGDa.js",
+      "sha256": "b383b1d8861aecf9467569962939b55b64021bf749fd9bf04ca0653e206b927f",
+      "matchesBuild": true
+    },
+    {
+      "url": "http://127.0.0.1:5686/assets/ridgeside-terrain/terrain.png",
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "matchesBuild": true
+    }
+  ],
+  "visualInspection": [
+    "Fresh 1440x1000 and 1440x810 desktop",
+    "Genuine 390x844 touch; no errors/overflow",
+    "Before/after grass, west earth and shore at 4x native",
+    "All 128 built pond samples over 32 seconds",
+    "Official grass equal-scale comparison retained VM-only"
+  ],
+  "referenceComparison": "/home/codex/research/clover-overnight/world-20260916T105306Z/grass-irregular-comparison.png",
+  "strictVisualAcceptance": false,
+  "remaining": [
+    "Dense cool turf and repeating blade vocabulary",
+    "Some diagonal earth clod motifs remain, though fixed spacing is reduced",
+    "Angular lower shoulders and small right-bank peaks",
+    "Plain soil/crop forms; restricted phone view"
+  ],
+  "scope": "VM loopback port 5686 only; isolated overnight/world; no deployment or main checkout edits"
+}

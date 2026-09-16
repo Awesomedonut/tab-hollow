@@ -1,0 +1,829 @@
+{
+  "origin": "http://127.0.0.1:7816",
+  "head": "54b704b52b0a0f3f06c61f245b6bd47a2123c201",
+  "workingTree": "?? docs/screenshots/character-20260916T152436Z/\n",
+  "errors": [],
+  "layouts": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "documentWidth": 1440,
+      "touchpoints": 0,
+      "coarse": false,
+      "crops": [
+        {
+          "x": 16,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 0
+          }
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 0
+          }
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 14,
+          "y": 16,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        }
+      ],
+      "tilled": 24,
+      "assets": [
+        "http://127.0.0.1:7816/assets/index-DZYgh0QS.js",
+        "http://127.0.0.1:7816/assets/index-BSvA0Rvh.css",
+        "http://127.0.0.1:7816/assets/fonts/VT323-Regular.ttf",
+        "http://127.0.0.1:7816/assets/original-farm/tool-hoe.png",
+        "http://127.0.0.1:7816/assets/original-farm/tool-seeds.png",
+        "http://127.0.0.1:7816/assets/original-farm/tool-water.png",
+        "http://127.0.0.1:7816/assets/nina-repixel/turnip.png",
+        "http://127.0.0.1:7816/assets/ridgeside-character/ian-walk.png",
+        "http://127.0.0.1:7816/assets/native-farming/turnip-stages.png",
+        "http://127.0.0.1:7816/assets/native-farming/soil.png",
+        "http://127.0.0.1:7816/assets/ridgeside-terrain/terrain.png",
+        "http://127.0.0.1:7816/assets/ridgeside-props/props.png",
+        "http://127.0.0.1:7816/assets/simple-resources/resources.png",
+        "http://127.0.0.1:7816/assets/ridgeside-farm-props/chicken.png",
+        "http://127.0.0.1:7816/assets/ridgeside-farm-props/sign.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/cottage.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/market.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/well.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/shipping-box.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/maple.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/pine.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/mahogany.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/bush-small.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/bush-large.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/cherry.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/tuft.png",
+        "http://127.0.0.1:7816/assets/original-farm/hud-wood.svg",
+        "http://127.0.0.1:7816/assets/fonts/PixelifySans.ttf"
+      ]
+    },
+    {
+      "name": "wide",
+      "width": 1440,
+      "documentWidth": 1440,
+      "touchpoints": 0,
+      "coarse": false,
+      "crops": [
+        {
+          "x": 16,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 0
+          }
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 0
+          }
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 14,
+          "y": 16,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        }
+      ],
+      "tilled": 24,
+      "assets": [
+        "http://127.0.0.1:7816/assets/index-DZYgh0QS.js",
+        "http://127.0.0.1:7816/assets/index-BSvA0Rvh.css",
+        "http://127.0.0.1:7816/assets/fonts/VT323-Regular.ttf",
+        "http://127.0.0.1:7816/assets/original-farm/tool-hoe.png",
+        "http://127.0.0.1:7816/assets/original-farm/tool-seeds.png",
+        "http://127.0.0.1:7816/assets/original-farm/tool-water.png",
+        "http://127.0.0.1:7816/assets/nina-repixel/turnip.png",
+        "http://127.0.0.1:7816/assets/ridgeside-character/ian-walk.png",
+        "http://127.0.0.1:7816/assets/native-farming/turnip-stages.png",
+        "http://127.0.0.1:7816/assets/native-farming/soil.png",
+        "http://127.0.0.1:7816/assets/ridgeside-terrain/terrain.png",
+        "http://127.0.0.1:7816/assets/simple-resources/resources.png",
+        "http://127.0.0.1:7816/assets/ridgeside-props/props.png",
+        "http://127.0.0.1:7816/assets/ridgeside-farm-props/chicken.png",
+        "http://127.0.0.1:7816/assets/ridgeside-farm-props/sign.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/cottage.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/market.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/well.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/shipping-box.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/maple.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/pine.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/mahogany.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/bush-small.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/bush-large.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/cherry.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/tuft.png",
+        "http://127.0.0.1:7816/assets/original-farm/hud-wood.svg",
+        "http://127.0.0.1:7816/assets/fonts/PixelifySans.ttf"
+      ]
+    },
+    {
+      "name": "phone",
+      "width": 390,
+      "documentWidth": 390,
+      "touchpoints": 1,
+      "coarse": true,
+      "crops": [
+        {
+          "x": 16,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 0
+          }
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 0
+          }
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 14,
+          "y": 16,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "tilled": true,
+          "watered": true,
+          "crop": {
+            "growth": 2
+          }
+        }
+      ],
+      "tilled": 24,
+      "assets": [
+        "http://127.0.0.1:7816/assets/index-DZYgh0QS.js",
+        "http://127.0.0.1:7816/assets/index-BSvA0Rvh.css",
+        "http://127.0.0.1:7816/assets/original-farm/tool-hoe.png",
+        "http://127.0.0.1:7816/assets/original-farm/tool-seeds.png",
+        "http://127.0.0.1:7816/assets/original-farm/tool-water.png",
+        "http://127.0.0.1:7816/assets/nina-repixel/turnip.png",
+        "http://127.0.0.1:7816/assets/native-farming/turnip-stages.png",
+        "http://127.0.0.1:7816/assets/ridgeside-character/ian-walk.png",
+        "http://127.0.0.1:7816/assets/native-farming/soil.png",
+        "http://127.0.0.1:7816/assets/fonts/VT323-Regular.ttf",
+        "http://127.0.0.1:7816/assets/ridgeside-terrain/terrain.png",
+        "http://127.0.0.1:7816/assets/simple-resources/resources.png",
+        "http://127.0.0.1:7816/assets/ridgeside-farm-props/chicken.png",
+        "http://127.0.0.1:7816/assets/ridgeside-props/props.png",
+        "http://127.0.0.1:7816/assets/ridgeside-farm-props/sign.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/cottage.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/market.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/well.png",
+        "http://127.0.0.1:7816/assets/ridgeside-buildings/shipping-box.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/maple.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/pine.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/mahogany.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/bush-small.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/bush-large.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/cherry.png",
+        "http://127.0.0.1:7816/assets/simple-foliage/tuft.png",
+        "http://127.0.0.1:7816/assets/original-farm/hud-wood.svg",
+        "http://127.0.0.1:7816/assets/fonts/PixelifySans.ttf"
+      ]
+    }
+  ],
+  "growth": [
+    {
+      "day": 2,
+      "crops": [
+        {
+          "x": 16,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 1
+          }
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 14,
+          "y": 16,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "crops": [
+        {
+          "x": 16,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 2
+          }
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 14,
+          "y": 16,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "crops": [
+        {
+          "x": 16,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 17,
+          "y": 14,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 14,
+          "y": 16,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 15,
+          "y": 16,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 14,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 15,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        },
+        {
+          "x": 23,
+          "y": 17,
+          "tilled": true,
+          "watered": false,
+          "crop": {
+            "growth": 3
+          }
+        }
+      ]
+    }
+  ],
+  "threeCrownCapture": {
+    "clip": {
+      "x": 559,
+      "y": 460,
+      "width": 144,
+      "height": 144
+    },
+    "nativeSize": [
+      48,
+      48
+    ],
+    "tiles": [
+      [
+        16,
+        13
+      ],
+      [
+        17,
+        13
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        14
+      ]
+    ],
+    "variants": [
+      1,
+      2,
+      0,
+      1
+    ]
+  }
+}

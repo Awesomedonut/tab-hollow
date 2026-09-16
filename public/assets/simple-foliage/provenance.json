@@ -1,0 +1,149 @@
+{
+  "author": "Azrashar / itsanette (uploaded as dugongkebalik)",
+  "source": "https://www.nexusmods.com/stardewvalley/mods/8164",
+  "mirror": "https://github.com/JettyQuin/Valley-Girls-1.6-Modpack",
+  "mirrorCommit": "d14cfcdc27524838cf4f2e43e6ff28023c7ca6b0",
+  "mirrorBasePath": "mods/[CP] Simple Foliage/assets/Vanilla/",
+  "assets": [
+    {
+      "file": "maple.png",
+      "sourceFile": "TerrainFeatures/tree2_spring.png",
+      "crop": [
+        0,
+        0,
+        48,
+        96
+      ],
+      "anchor": [
+        24,
+        81
+      ],
+      "size": [
+        48,
+        96
+      ],
+      "sha256": "b65e08cc7494805a9c28a3c76c5b63d6d2071ad09dcd51cdef0a1c27b513557e"
+    },
+    {
+      "file": "pine.png",
+      "sourceFile": "TerrainFeatures/tree3_spring.png",
+      "crop": [
+        0,
+        0,
+        48,
+        96
+      ],
+      "anchor": [
+        24,
+        86
+      ],
+      "size": [
+        48,
+        96
+      ],
+      "sha256": "39c06f372b36572cbef5ffc42af9702355841712f71a761d3cd74e8dfa85a794",
+      "renderCrop": [
+        0,
+        0,
+        48,
+        88
+      ],
+      "note": "Exclude isolated non-tree pixel at x19,y93 below the transparent gap; trunk ends at y86."
+    },
+    {
+      "file": "mahogany.png",
+      "sourceFile": "TerrainFeatures/tree8_spring.png",
+      "crop": [
+        0,
+        0,
+        48,
+        96
+      ],
+      "anchor": [
+        24,
+        83
+      ],
+      "size": [
+        48,
+        96
+      ],
+      "sha256": "afc6fa724f4b4792a7f1a5123ae363520130745d61045cfaced99405720094eb"
+    },
+    {
+      "file": "bush-large.png",
+      "sourceFile": "Maps/spring_outdoorsTileSheet.png",
+      "crop": [
+        208,
+        0,
+        256,
+        48
+      ],
+      "anchor": [
+        24,
+        46
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sha256": "500d67fa26fe3d92b50d621a7357312b7ef1d90f2d57022647069a60eb1266d8"
+    },
+    {
+      "file": "bush-small.png",
+      "sourceFile": "Maps/spring_outdoorsTileSheet.png",
+      "crop": [
+        208,
+        48,
+        240,
+        80
+      ],
+      "anchor": [
+        16,
+        30
+      ],
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "ad4908ef0f241c6d43ff5c080ed6740fae7a3f8a410b8d4ef123a55ce528c021"
+    },
+    {
+      "file": "cherry.png",
+      "sourceFile": "Maps/spring_outdoorsTileSheet.png",
+      "crop": [
+        256,
+        0,
+        352,
+        112
+      ],
+      "anchor": [
+        48,
+        110
+      ],
+      "size": [
+        96,
+        112
+      ],
+      "sha256": "98ae556a8e03f5968dc33f3e37c0a2d31af9919551d587c66511167b43974637"
+    },
+    {
+      "file": "tuft.png",
+      "sourceFile": "Maps/spring_outdoorsTileSheet.png",
+      "crop": [
+        240,
+        48,
+        256,
+        80
+      ],
+      "anchor": [
+        8,
+        30
+      ],
+      "size": [
+        16,
+        32
+      ],
+      "sha256": "1fe57bb31e3bda7d62f514729209fd2d6792064687491b16475f1fd1b2288751"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "materials": {
+    "grass": {
+      "before": "/home/codex/research/clover-overnight/reviews/20260916T112316Z/ground/component-grass-4x.png",
+      "after": "docs/screenshots/world-20260916T112316Z/ground/component-grass-4x.png",
+      "nativeSize": [
+        128,
+        112
+      ],
+      "comparisonScale": 1,
+      "detailScale": 4
+    },
+    "west-edge": {
+      "before": "/home/codex/research/clover-overnight/reviews/20260916T112316Z/ground/component-west-edge-4x.png",
+      "after": "docs/screenshots/world-20260916T112316Z/ground/component-west-edge-4x.png",
+      "nativeSize": [
+        168,
+        152
+      ],
+      "comparisonScale": 1,
+      "detailScale": 4
+    },
+    "shore": {
+      "before": "/home/codex/research/clover-overnight/reviews/20260916T112316Z/ground/component-shore-4x.png",
+      "after": "docs/screenshots/world-20260916T112316Z/ground/component-shore-4x.png",
+      "nativeSize": [
+        168,
+        112
+      ],
+      "comparisonScale": 1,
+      "detailScale": 4
+    }
+  },
+  "officialReferenceComparison": "/home/codex/research/clover-overnight/world-20260916T112316Z/turf-comparison-4x.png",
+  "animation": "128 frames sampled from built renderer at250ms; 32 seconds, native3x pixels, stable pier included."
+}

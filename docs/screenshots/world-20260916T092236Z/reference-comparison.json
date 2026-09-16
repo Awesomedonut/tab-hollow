@@ -1,0 +1,11 @@
+{
+  "referenceComparison": "/home/codex/research/clover-overnight/world-20260916T092236Z/grass-native-scale-comparison.png",
+  "referenceParent": "/home/codex/research/clover-overnight/reviews/20260916T092236Z/grass-native-scale-comparison.png",
+  "note": "Official panel retained VM-only outside repository. Same previously reviewed approx 4-display-pixels/native pixel reference crop; candidate component uses exact 4x nearest-neighbor native scale. No official pixels shipped.",
+  "candidateCommit": "11430efc2c64e7e377386230af60073ce93e7d02",
+  "files": {
+    "/home/codex/research/clover-overnight/world-20260916T092236Z/grass-native-scale-comparison.png": "dbbf0df41a46d0745fbc83652a013a94bf70f132c942accab6db100ad5594c6e",
+    "docs/screenshots/world-20260916T092236Z/grass-before-after-native.png": "2963302f5470e7593fc47013bbc8500d0e37958a9ba13258d9dc777a86a4650f",
+    "docs/screenshots/world-20260916T092236Z/shore-before-after-native.png": "1c3a38842a3e2a8975c470caa79bf3c28c0d9160c7c8c7f49322841af5bb8760"
+  }
+}

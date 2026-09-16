@@ -1,0 +1,31 @@
+{
+  "origin": "http://127.0.0.1:5879",
+  "unitTests": 18,
+  "browserTests": 5,
+  "notes": "Actual UI-grown screenshots; only travel shortened. Before left, final right. 192px game clip spans 64 native pixels; nearest-neighbor 1x/4x evidence. Official reference remains VM-only.",
+  "servedAssets": {
+    "assets/native-farming/turnip-stages.png": {
+      "sha256": "c04f8bfff2646886eb2be72a3f03128455d89d048089ab6199ff0a3fe918a9f1",
+      "matchesSource": true
+    },
+    "assets/native-farming/soil.png": {
+      "sha256": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+      "matchesSource": true
+    },
+    "assets/ridgeside-character/source-Ian.png": {
+      "sha256": "0a25d5e6a1c031c7f246013f551b45f06051d9bb2073258635895c93406e11d7",
+      "matchesSource": true
+    },
+    "/assets/index-ja_OCKDV.js": {
+      "sha256": "2d68c7b13196bf81d1b935b9a235407aabb08136e9adb0ea0091e5bc077f0345",
+      "matchesBuild": true
+    }
+  },
+  "implementationCommit": "9f9b899380b16200592e68f269d2ff7ad8858cca",
+  "preservedFiles": {
+    "public/assets/native-farming/soil.png": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+    "public/assets/native-farming/ian-side-work.png": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "src/character-poses.js": "30ce45bb64c23d4e33acd2639cfbcf9d616dd8ad79190d2bb1c3f90483837cf1",
+    "src/character-art.js": "241c071a0c21a533ecb1e2a7f5647337e7e3e578c12b67161bf1a92228b3e27a"
+  }
+}

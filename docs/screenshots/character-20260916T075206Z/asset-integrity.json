@@ -1,0 +1,18 @@
+{
+  "soilSize": [
+    192,
+    48
+  ],
+  "dryWetAlphaIdentical": true,
+  "recordedHashesMatch": true,
+  "cropSize": [
+    64,
+    32
+  ],
+  "comparison": {
+    "officialPixelsPerNative": 4,
+    "gameplayCapturePixelsPerNative": 3,
+    "displayPixelsPerNative": 4,
+    "method": "tile-aligned 192x240 screenshot reduced nearest to 64x80, enlarged nearest to 256x320; no game sprite edits"
+  }
+}

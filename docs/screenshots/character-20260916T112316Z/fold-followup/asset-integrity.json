@@ -1,0 +1,29 @@
+{
+  "origin": "http://127.0.0.1:5867",
+  "files": {
+    "turnip-stages.png": {
+      "local": "b5b71316d18e820cb85f03168c183bb35bd6eb530e8220e1a052eb133378c6cf",
+      "served": "b5b71316d18e820cb85f03168c183bb35bd6eb530e8220e1a052eb133378c6cf",
+      "provenance": "b5b71316d18e820cb85f03168c183bb35bd6eb530e8220e1a052eb133378c6cf"
+    },
+    "source-soil-patch.png": {
+      "local": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+      "served": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+      "provenance": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39"
+    },
+    "soil.png": {
+      "local": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+      "served": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+      "provenance": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847"
+    },
+    "ian-side-work.png": {
+      "local": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "served": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "provenance": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c"
+    }
+  },
+  "unchangedFromPreservedHEAD": [
+    "soil.png",
+    "ian-side-work.png"
+  ]
+}

@@ -1,0 +1,7 @@
+
+Running 2 tests using 1 worker
+
+  ✓  1 tests/world-art.spec.js:6:1 › native pond frames animate beneath a stable pier and preserve dry corners (2.0s)
+  ✓  2 tests/world-art.spec.js:102:1 › connected soil keeps wet/dry masks and updates cached joins after tilling (902ms)
+
+  2 passed (3.5s)

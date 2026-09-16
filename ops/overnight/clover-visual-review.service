@@ -1,0 +1,9 @@
+[Unit]
+Description=Clover Hollow overnight visual QA and integration agent
+[Service]
+Type=oneshot
+WorkingDirectory=/home/codex/projects/clover-hollow
+ExecStart=/home/codex/projects/clover-hollow/ops/overnight/review.sh
+TimeoutStartSec=29min
+KillMode=control-group
+Nice=5

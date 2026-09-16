@@ -1,0 +1,231 @@
+{
+  "author": "Rafseazz and Ridgeside Village contributors",
+  "repository": "https://github.com/Rafseazz/Ridgeside-Village-Mod",
+  "commit": "1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9",
+  "source_path": "Ridgeside Development/[CP] Ridgeside Village/Assets/Characters/Ian.png",
+  "license": "CC-BY-SA-4.0",
+  "license_basis": "Repository README explicitly licenses all directories outside SMAPI Component under CC BY-SA 4.0.",
+  "source_sha256": "0a25d5e6a1c031c7f246013f551b45f06051d9bb2073258635895c93406e11d7",
+  "crop": [
+    0,
+    0,
+    64,
+    128
+  ],
+  "native_frame": [
+    16,
+    32
+  ],
+  "rows": [
+    "down",
+    "right",
+    "up",
+    "left"
+  ],
+  "columns": "Four authored walking frames per direction; column 0 is idle.",
+  "changes": "Lossless crop of first four rows. No recoloring, retouching, rescaling, or generated pixels.",
+  "action_adaptation": {
+    "implementation": "src/character-poses.js",
+    "license": "CC-BY-SA-4.0",
+    "source_url": "https://raw.githubusercontent.com/Rafseazz/Ridgeside-Village-Mod/1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9/Ridgeside%20Development/%5BCP%5D%20Ridgeside%20Village/Assets/Characters/Ian.png",
+    "source_rectangles_xywh": [
+      [
+        0,
+        0,
+        16,
+        32
+      ],
+      [
+        0,
+        32,
+        16,
+        32
+      ],
+      [
+        0,
+        64,
+        16,
+        32
+      ]
+    ],
+    "regions": "Front/side retain previous integer translations. North head [0,64,16,13] translates down 0/3/6/2 px (hoe), 0/2/3/1 (water). North central back source x5..11,y77..88 selects native scanlines into y13+dip..24, shortening back without interpolation. Shoulder crops [1,78,4,3] and [12,78,3,3] shift outward one pixel during bend. Source lower legs y89..95 remain anchored. Far arms wrap outside torso, never across the back. Exact per-frame integer coordinates in src/character-poses.js. Water swing/pour back scanlines y<22 lean one pixel right; right shoulder crop moves to x14,y15+floor(dip/2); bent elbow [16,21], hands [14,20]/[15,17]/[15,17]/[14,20]. Head remains an unchanged native crop; boots remain fixed.",
+    "scope": "24 canvas-native project-adapted action poses; NOT upstream-authored farming frames. Native side hoe sequence remains separate unchanged source crops.",
+    "anchor": [
+      12,
+      31
+    ],
+    "canvas_size": [
+      24,
+      32
+    ],
+    "body_source_sha256": "0a25d5e6a1c031c7f246013f551b45f06051d9bb2073258635895c93406e11d7",
+    "tool_motion": "North hoe tip positions relative to boots: [6,-39],[10,-27],[8,-15],[9,-23]; impact drops beside bowed far shoulder into north target instead of remaining overhead. Water can top-left [7,-17],[8,-20],[8,-20],[7,-17]; short spout points northwest into north target, stream falls beside shoulder. Far-hand grips and handle share per-frame integer positions. Rear tools remain behind body. Water vessel has authored stepped rim/belly pixels to show tilt.",
+    "rear_direction_followup": "20260916T075206Z: reduced head dip, offset working shoulder/back and bent forward-reaching forearm; tilted can silhouette. Project-authored CC-BY-SA-4.0 adaptation, not upstream action art.",
+    "refinement_20260916T075206Z": "Rear water shoulder [13,16+floor(dip/2)]; elbows [15,21]/[16,20]/[16,19]/[15,20]; grips [14,20]/[16,17]/[16,16]/[14,19]. Can y positions -16/-19/-20/-17, x 7/8/8/7 relative to boot. Windup/recovery have an upright 5x5 belly; swing/pour use stepped tilted vessel, pivoting the spout forward. Native boots and head crops unchanged. Project-authored CC BY-SA 4.0 derivative; exact executable masks src/character-art.js and src/character-poses.js.",
+    "followup_20260916T082216Z": {
+      "water_dip": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "side_lean": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "side_hands": [
+        [
+          11,
+          20
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          12,
+          21
+        ]
+      ],
+      "front_hands": [
+        [
+          11,
+          20
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          12,
+          21
+        ]
+      ],
+      "adaptation": "Source torso/head translated on integer pixels, never scaled or stretched. Fixed boots and native side-hoe sequence unchanged. Side elbows change per phase and front working shoulder offsets one pixel during pour. Project-authored watering can masks add recessed mouth, five metal tones, curved shaded belly, shortened stepped spout and flared rose; separate rear vessel remains occluded behind native head/back. Exact masks and placements in src/character-art.js and src/character-poses.js. Adaptation retains CC BY-SA 4.0."
+    }
+  },
+  "rearWatering_20260916T085250Z": {
+    "sourceRectXYWH": [
+      0,
+      64,
+      16,
+      32
+    ],
+    "headRectXYWH": [
+      0,
+      64,
+      16,
+      13
+    ],
+    "headOffsetsXY": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "back": "Native 10px row fragments x3..12; source rows selected by existing foreshortening formula. Integer horizontal lean decreases from shoulder to planted hip; per-phase amplitude 0/2/3/1. No resampling. Rolled right shoulder crop [12,78,3,3] shifts to x15 during dip.",
+    "handsXY": [
+      [
+        14,
+        20
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        15,
+        19
+      ]
+    ],
+    "elbowsXY": [
+      [
+        15,
+        21
+      ],
+      [
+        17,
+        21
+      ],
+      [
+        17,
+        22
+      ],
+      [
+        16,
+        21
+      ]
+    ],
+    "adaptation": "Project-authored CC BY-SA 4.0 body adaptation. Native head moves down/right during pour, back compresses and leans into right shoulder, bent working forearm reaches the existing can grip. Boots, all native walking pixels, native side hoe and other facings unchanged. Exact reconstruction in src/character-poses.js."
+  },
+  "rearWatering_20260916T092236Z": {
+    "sourceRectXYWH": [
+      0,
+      64,
+      16,
+      32
+    ],
+    "elbowsXY": [
+      [
+        15,
+        21
+      ],
+      [
+        16,
+        20
+      ],
+      [
+        16,
+        20
+      ],
+      [
+        15,
+        21
+      ]
+    ],
+    "shoulderCropXYWH": [
+      12,
+      78,
+      3,
+      3
+    ],
+    "shoulderDestination": "x14, y15+floor(dip/2) during bend",
+    "adaptation": "Shorten swing/pour outer forearm and pull elbow/cuff inward to replace elongated rectangular loop with compact stepped bend. Native head/back bow, hands, tool attachment, boot anchor, walking and side-hoe remain unchanged. Project CC BY-SA 4.0 adaptation of same cleared Ian source; no new source or permission assumptions."
+  },
+  "sideHoe_20260916T122336Z": {
+    "sourceRectXYWH": [
+      0,
+      32,
+      16,
+      32
+    ],
+    "license": "CC-BY-SA-4.0",
+    "adaptation": "Project-authored articulated arms on native Ian side idle body; original row y224 small working tool superseded at runtime. Fixed lower legs/boots [0,57,16,7], translated/clipped upper body [0,32,16,25], dip 0/1/3/1. Hands at [11,9],[16,14],[17,24],[13,19] relative to native 16x32 frame; two arms join the shaft. Left mirrors right. Native head/anatomy/walk unchanged, no resampling. Head of project-authored hoe at [0,-38],[16,-28],[22,1],[14,-13] relative to feet. Exact arm strokes in src/character-poses.js and tool pixels in src/character-art.js. 380ms duration and four phases preserved."
+  }
+}

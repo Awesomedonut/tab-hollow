@@ -1,0 +1,85 @@
+{
+  "checkout": "11430efc2c64e7e377386230af60073ce93e7d02",
+  "workingTree": "?? docs/screenshots/world-20260916T092236Z/",
+  "origin": "http://127.0.0.1:5419",
+  "capturedAt": "2026-09-16T09:39:14.143Z",
+  "captures": [
+    {
+      "name": "desktop",
+      "path": "docs/screenshots/world-20260916T092236Z/desktop.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5419/assets/index-zeXRnlKW.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    },
+    {
+      "name": "desktop-16x9",
+      "path": "docs/screenshots/world-20260916T092236Z/desktop-16x9.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5419/assets/index-zeXRnlKW.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/screenshots/world-20260916T092236Z/touch.png",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:5419/assets/index-zeXRnlKW.js"
+        ],
+        "tilled": 24,
+        "crops": 6
+      }
+    }
+  ],
+  "diagnostic": {
+    "path": "docs/screenshots/world-20260916T092236Z/pond-camera-diagnostic.png",
+    "player": {
+      "x": 29,
+      "y": 20.8
+    },
+    "note": "Camera/player relocation only; no crop, day or inventory fixture."
+  }
+}

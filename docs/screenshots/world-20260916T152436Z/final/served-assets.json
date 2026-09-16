@@ -1,0 +1,41 @@
+{
+  "origin": "http://127.0.0.1:7836",
+  "results": [
+    {
+      "path": "/index.html",
+      "status": 200,
+      "sha256": "57012d0c12260b5db1b82f15de47a8c975c9553e6dfdc2180f46069d280e68c2",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/index-BBavwJWR.js",
+      "status": 200,
+      "sha256": "e270b34537032e51fae280dd4b618cf2bf03af006a5e74435b46e8c4ea64a904",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/index-B3yDm7jU.css",
+      "status": 200,
+      "sha256": "d3ced9f3285be0e9174b8e54fd36714d920381d400d565ac2b43e7d115852bba",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/ridgeside-terrain/terrain.png",
+      "status": 200,
+      "sha256": "75b556d4d4f3e3839be2e43905591b29c2ff3350a84aebc6a8c277c3b5cca71f",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/soil.png",
+      "status": 200,
+      "sha256": "abe23776dcec4b701cfe52863c0f007d9569eed45bc91abf96722773fbaba10b",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/turnip-stages.png",
+      "status": 200,
+      "sha256": "0290e76766bcda3eba234a0ace456ca308c5ff6d69e541bc6356bc112920fc27",
+      "matchesBuild": true
+    }
+  ]
+}

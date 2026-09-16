@@ -1,0 +1,37 @@
+{
+  "implementationCommit": "5ebde032fbeb0d2118a47309779859bbd4431255",
+  "sourceSha256": "f7b4769f463adcfa7627d674d24adbc5516fd948cca32363effdbd04dd05f8fd",
+  "origin": "http://127.0.0.1:5836",
+  "served": [
+    {
+      "path": "/assets/index-CgFEmtsM.js",
+      "status": 200,
+      "sha256": "493d5027445a84f8d6caa2662524fbb52de150ad6ec44ae7d4442b71388ff86f",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/ridgeside-terrain/terrain.png",
+      "status": 200,
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/soil.png",
+      "status": 200,
+      "sha256": "88e632c7c92dcc90fd3828d471de32dcf7bf1f63475210f376bd268fb0445b91",
+      "matchesBuild": true
+    }
+  ],
+  "checks": {
+    "unit": "18/18 passed",
+    "browser": "5/5 passed: farming/save/buy/sell, touch/reset/recovery, action anchoring, 128-frame pond/containment/pier, soil masks/cache/joins",
+    "build": "passed",
+    "reproduction": "Original PNG/TMX and output SHA256 verified"
+  },
+  "limitations": [
+    "Strict visual acceptance remains false",
+    "Native grass vocabulary is still finer and less upright than official reference",
+    "Shallow repeated southern scallops and angular east shoulder remain",
+    "Unchanged crop/soil likeness and restricted phone framing remain"
+  ]
+}

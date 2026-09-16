@@ -1,0 +1,12 @@
+[Unit]
+Description=Clover Hollow overnight %i implementation worker
+[Service]
+Type=simple
+WorkingDirectory=/home/codex/projects/clover-hollow
+ExecStart=/home/codex/projects/clover-hollow/ops/overnight/worker.sh %i
+Restart=on-failure
+RestartSec=30
+KillMode=control-group
+Nice=5
+[Install]
+WantedBy=default.target

@@ -1,0 +1,22 @@
+{
+  "unitTests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "playwright": {
+    "passed": 5,
+    "failed": 0,
+    "checks": [
+      "desktop harvest/sell/buy/save",
+      "touch/reset/recovery",
+      "directional action anchors/mirrors/idle",
+      "pond animation/containment",
+      "soil masks/cache/connected seams"
+    ]
+  },
+  "productionBuild": "pass",
+  "diffCheck": "pass",
+  "browserOrigin": "http://127.0.0.1:7027",
+  "officialComparisons": "VM-only /home/codex/research/clover-overnight/character/20260916T142416Z/ui-grown-comparison-{1,4}x.png",
+  "strictVisualAcceptance": false
+}

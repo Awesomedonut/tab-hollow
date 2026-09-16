@@ -1,0 +1,27 @@
+[
+  {
+    "url": "/assets/index-B4uE921L.js",
+    "sha256": "45bbb73b9971b0cb583006c6c8c6bc9db5ecbdbb11c159921dd754cca03da97d",
+    "matchesBuild": true
+  },
+  {
+    "url": "/assets/native-farming/soil.png",
+    "sha256": "023f7357526b74450a29a954c2dde0770b5c410b4f69ebe67a05a5a2f7a879de",
+    "matchesBuild": true
+  },
+  {
+    "url": "/assets/native-farming/turnip-stages.png",
+    "sha256": "442e1f8f07f8a3ad240cd66c45bf7fa1af1dbc7031229ead6227f447c5080115",
+    "matchesBuild": true
+  },
+  {
+    "url": "/assets/native-farming/ian-side-work.png",
+    "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "matchesBuild": true
+  },
+  {
+    "url": "/credits.html",
+    "sha256": "cdd4b0e965ea8f10ec27c7219db0677da5b14b5e87c16eac901d45609fed3a33",
+    "matchesBuild": true
+  }
+]

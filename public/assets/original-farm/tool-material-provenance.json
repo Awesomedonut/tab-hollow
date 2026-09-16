@@ -1,0 +1,34 @@
+{
+  "author": "Clover Hollow project",
+  "iteration": "20260916T122336Z",
+  "source": "Project-authored; no downloaded artwork",
+  "generator": "ops/generate-sprites.py",
+  "nativeDimensions": [
+    24,
+    24
+  ],
+  "adaptations": {
+    "hoe": "Shaded metal socket, honed edge, ferrule and broken wood grain",
+    "seeds": "Folded side gusset, bottom paper crimp and top seam",
+    "water": "Project-authored 24x24 native-grid folded-metal body: lower rolled seam, recessed base, vertical fold, inset mouth inner wall, rose perforations and neck collar. No external artwork or reference pixels."
+  },
+  "sha256": {
+    "tool-hoe.png": "02991f24f6f029c0ddf79e1a509751c4f3f68b7aac991faaf5e3ac81e130c898",
+    "tool-seeds.png": "41cf391c5597872adca08e446128d132dc3c613a2435f15653fb8201cfdd1b15",
+    "tool-water.png": "9818c54f377a63d076baa3a855321a36e2e2d0fdf9c1ab4ad0d0a9d6676b46d5"
+  },
+  "followupIteration": "20260916T125346Z",
+  "hudWood": {
+    "iteration": "20260916T145426Z",
+    "file": "hud-wood.svg",
+    "author": "Clover Hollow project",
+    "source": "Project-authored integer SVG geometry; no downloaded artwork, upstream crops or reference pixels",
+    "nativeDimensions": [
+      128,
+      64
+    ],
+    "displayScale": 2,
+    "adaptations": "Unequal interrupted horizontal grain, shallow board joins, one small knot, per-panel origin offsets. CSS fasteners retain inset metal faces. No layout changes.",
+    "sha256": "589f28aaf69350506a6f307e0abc422859fb4db159da38b2524593a9468dc023"
+  }
+}

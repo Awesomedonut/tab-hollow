@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "file": "turnip-stages.png",
+      "sha256": "4db9fc3fdb33064eeff5ec5f170c44f1197f153563fa689571c4bc94487f4826",
+      "servedMatches": true
+    },
+    {
+      "file": "source-soil-patch.png",
+      "sha256": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+      "servedMatches": true
+    },
+    {
+      "file": "soil.png",
+      "sha256": "a5ae57e05d0b93557ae1a0189299f7029e2085203a251ea54537ee68dca05880",
+      "servedMatches": true
+    },
+    {
+      "file": "ian-side-work.png",
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "servedMatches": true
+    }
+  ],
+  "unchanged": [
+    "seedling and young cells",
+    "soil alpha and native edge quarters",
+    "Ian source and all character runtime modules",
+    "side hoe pixels"
+  ],
+  "cropSize": [
+    64,
+    64
+  ]
+}

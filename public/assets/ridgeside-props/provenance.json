@@ -1,0 +1,55 @@
+{
+  "title": "Ridgeside Village native fence, barrel and timber decking",
+  "author": "Rafseazz and the Ridgeside Village contributors",
+  "upstreamRepo": "https://github.com/Rafseazz/Ridgeside-Village-Mod",
+  "upstreamCommit": "1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9",
+  "sourcePath": "Ridgeside Development/[CP] Ridgeside Village/Assets/Maps/TileSheets/spring_zridgesidebuildings.png",
+  "sourceSha256": "e9a7eb316419115921d01db73cd6e8d1787664aecf1c60de85fd71577732dc65",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "Native-resolution crops repacked into a compact transparent atlas. No resampling or recoloring.",
+  "sprites": {
+    "fence": {
+      "source": [
+        256,
+        0,
+        144,
+        32
+      ],
+      "atlas": [
+        0,
+        0,
+        144,
+        32
+      ]
+    },
+    "barrel": {
+      "source": [
+        144,
+        384,
+        16,
+        32
+      ],
+      "atlas": [
+        144,
+        0,
+        16,
+        32
+      ]
+    },
+    "decking": {
+      "source": [
+        288,
+        80,
+        16,
+        16
+      ],
+      "atlas": [
+        160,
+        0,
+        16,
+        16
+      ]
+    }
+  }
+}

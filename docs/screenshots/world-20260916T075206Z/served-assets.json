@@ -1,0 +1,175 @@
+{
+  "origin": "http://127.0.0.1:5291",
+  "checkedAt": "2026-09-16T08:04:11.078Z",
+  "errors": [],
+  "assets": [
+    {
+      "url": "http://127.0.0.1:5291/assets/index-D_DIDq-e.js",
+      "status": 200,
+      "sha256": "909f9ce256d525faf559a44c2a6f81add2609786ac120edb78e6cffd287c89fe",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/index-Cyx8yazm.css",
+      "status": 200,
+      "sha256": "991443da1db6f33152339834bfb9db7c7b7294e533fe4303b83174cd39e52236",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/fonts/VT323-Regular.ttf",
+      "status": 200,
+      "sha256": "cf4de751ada78ceac033dbe16a687742939995b77bc2a052ae17a4957958594d",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/original-farm/tool-hoe.png",
+      "status": 200,
+      "sha256": "8e8c61197093803068a46e74e5d2888612655aa7c4aa3c9b9839b548cacd8019",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/original-farm/tool-seeds.png",
+      "status": 200,
+      "sha256": "2c7f9a04bffd2b29551d790f9ab5a845f460a8daa00f62de5b5a6500c7db82be",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/original-farm/tool-water.png",
+      "status": 200,
+      "sha256": "180405d9a1ece8010a2a4c222d2b20f19cee7ce1646acfb87fe617bf37322557",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/nina-repixel/turnip.png",
+      "status": 200,
+      "sha256": "173fef7d3c343a2cd28b62722e6cec43b6b292c61549e5a1e90cbe0d3b0ee4d8",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-character/ian-walk.png",
+      "status": 200,
+      "sha256": "712d4b0c04bc17327f79f0ae152ce414dfefe4aa75a40c3b3f141cf4e855fce5",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/native-farming/turnip-stages.png",
+      "status": 200,
+      "sha256": "f6140ee9c476297d67318c3d60b9ec68e4e4d0a4b53b32a82a5b10baba37307c",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/native-farming/soil.png",
+      "status": 200,
+      "sha256": "fec14fa24d0d691e1389920ceedb768433c13b3dbf9730ffcc1722c38e902559",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/native-farming/ian-side-work.png",
+      "status": 200,
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-resources/resources.png",
+      "status": 200,
+      "sha256": "06091ab877f16a0e8bf7e63ad105136fdd6dd34cfd03211a1103044a0ee485e5",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-terrain/terrain.png",
+      "status": 200,
+      "sha256": "f34372ed9e84546b6689cdd16c14b8f74066aad39981203ac36a1a54ce8ed79a",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-props/props.png",
+      "status": 200,
+      "sha256": "d114f2c441211e7e87fc18a4f93f90e3ce8b1ed3825ef068c410de14346048f1",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-farm-props/sign.png",
+      "status": 200,
+      "sha256": "61434e1c434e132cb59c71f1427b6a6ae68cb923276c35df8ab7e73f10f23776",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-farm-props/chicken.png",
+      "status": 200,
+      "sha256": "73663a7217c51035982e069849ca915c824fb3675d31077660cf249343d3e2a5",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-buildings/cottage.png",
+      "status": 200,
+      "sha256": "d8e7e44e8e647772cc675218dbda3780e10260ea5ac75331bf1d21c8b3799bd9",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-buildings/well.png",
+      "status": 200,
+      "sha256": "e8bdd094eb3f10fa5dfcb6ab6d23d8debb971e95b02f83c2780428066bf20a57",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-buildings/market.png",
+      "status": 200,
+      "sha256": "2d48043e21d9fa41b943573508e6aad2d360b376134dd050db1fd8479f03915c",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/ridgeside-buildings/shipping-box.png",
+      "status": 200,
+      "sha256": "d69915d4fe6ac0cdda145cbf139043d6c99248d2d3a4390a42d2425d7a760e20",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/maple.png",
+      "status": 200,
+      "sha256": "b65e08cc7494805a9c28a3c76c5b63d6d2071ad09dcd51cdef0a1c27b513557e",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/bush-large.png",
+      "status": 200,
+      "sha256": "500d67fa26fe3d92b50d621a7357312b7ef1d90f2d57022647069a60eb1266d8",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/pine.png",
+      "status": 200,
+      "sha256": "39c06f372b36572cbef5ffc42af9702355841712f71a761d3cd74e8dfa85a794",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/mahogany.png",
+      "status": 200,
+      "sha256": "afc6fa724f4b4792a7f1a5123ae363520130745d61045cfaced99405720094eb",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/bush-small.png",
+      "status": 200,
+      "sha256": "ad4908ef0f241c6d43ff5c080ed6740fae7a3f8a410b8d4ef123a55ce528c021",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/cherry.png",
+      "status": 200,
+      "sha256": "98ae556a8e03f5968dc33f3e37c0a2d31af9919551d587c66511167b43974637",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/simple-foliage/tuft.png",
+      "status": 200,
+      "sha256": "1fe57bb31e3bda7d62f514729209fd2d6792064687491b16475f1fd1b2288751",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "http://127.0.0.1:5291/assets/fonts/PixelifySans.ttf",
+      "status": 200,
+      "sha256": "9ba86cd010a4de309d263ceff8e8044092c9db7efda869620cb9ff1c4389e8a5",
+      "matchesBuiltBytes": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "origin": "http://127.0.0.1:5548",
+  "note": "Shipped renderer, all 128 successive 250ms samples including foreground. Diagnostic player/camera on the pier at 29,20.8. Renderer clock advanced; no game state growth fixture.",
+  "scripts": [
+    "http://127.0.0.1:5548/assets/index-DsIEmlHH.js"
+  ],
+  "scale": 2.9999999999999947,
+  "crops": 6,
+  "tilled": 24,
+  "errors": []
+}

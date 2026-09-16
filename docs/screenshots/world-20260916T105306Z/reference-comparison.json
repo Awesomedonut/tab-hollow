@@ -1,0 +1,21 @@
+{
+  "referencePanel": "/home/codex/research/clover-overnight/reviews/20260916T105306Z/grass-comparison.png",
+  "referencePanelCropXYWH": [
+    0,
+    35,
+    512,
+    320
+  ],
+  "candidateSource": "docs/screenshots/world-20260916T105306Z/ground/component-ground-native.png",
+  "candidateCropXYWH": [
+    288,
+    48,
+    128,
+    80
+  ],
+  "candidateScale": 4,
+  "referenceScale": "Retained reviewer reference6 panel labeled 4x native; no additional rescaling.",
+  "comparison": "/home/codex/research/clover-overnight/world-20260916T105306Z/grass-comparison.png",
+  "sha256": "b083d1cb4a3a1125f734551f441a4d9a47befe902a1afe53300297b3eb6bed6b",
+  "note": "Official pixels remain outside repository and game assets; equal-scale visual reference only."
+}

@@ -1,0 +1,10 @@
+Nina — Stardew Valley Item RePixel (No Fish)
+https://misnina.itch.io/stardew-valley-item-repixel
+Credit: https://mastodon.art/@misnina
+
+Published permission, verified 2026-09-16:
+"These are free to use for anything you want, even beyond using them in the game itself."
+
+Adaptations by Clover Hollow: cream/purple root palette (see ../nina-repixel/adapt-turnip.py); four growth stages assembled from native leaf clusters, integer rotation/reflection/translation plus source-color stems (see adapt.py). This custom permission is not described as CC0. Nina authored the original item, not the growth sequence.
+
+20260916T135406Z: three rows of four native 16x32 growth cells. Later full/ripe crowns are project-authored closed pixel masks using source-derived colors, with unequal overlapping folded faces. Nina cotyledon [5,2,7,4] and buried bulb [3,7,7,4] remain. Exact masks, placement and source/output SHA256 in adapt.py and provenance.json; no claim these are upstream Nina growth frames.

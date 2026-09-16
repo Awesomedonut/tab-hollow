@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Rafseazz/Ridgeside-Village-Mod/main/README.md",
+    "sha256": "e65cc50f9775bae84968171f9a7226c0efa41bdb9871c551c1e95c6fc2bb9bf5"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/MizuJakkaru/Cornucopia/main/CREDITS.md",
+    "sha256": "a1a0a3faf57e1de52d247742ece8b1b44ddcaf7e5735c4010853839bb3c62aac"
+  },
+  {
+    "url": "https://misnina.itch.io/stardew-valley-item-repixel",
+    "sha256": "4acadae3e603434f73e24fda0c257b3c90d9bf402a0ae69f57c5ba4e4c95161d"
+  },
+  {
+    "collection": "/home/codex/research/mod-art/Ridgeside-Village-Mod-tree.json",
+    "sha256": "540a6cdf6f3ad9ff3326f71c36b5a7b8364e17bee95d7ef3a8db98b6707a57a8",
+    "candidateCount": 0,
+    "sample": []
+  },
+  {
+    "collection": "/home/codex/research/mod-art/EemiesMap-CP-tree.json",
+    "sha256": "c1803806ee7a05f941ce966ab3849ab5c98a08c1d26fd5a1bd4ccf9f3b085b59",
+    "candidateCount": 0,
+    "sample": []
+  },
+  {
+    "collection": "/home/codex/research/mod-art/starblue-valley-tree.json",
+    "sha256": "5e90a8a25e245bb0bb0fb3ab6b148f6fb9b888f2e5208693a8b49769b985f77f",
+    "candidateCount": 0,
+    "sample": []
+  },
+  {
+    "collection": "/home/codex/research/mod-art/BBStardewValleyMods-tree.json",
+    "sha256": "b297fff8f673a31c5bdab3984950ba19ca25bf1e4a2b9815d2f57cefb72373e2",
+    "candidateCount": 285,
+    "sample": [
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Big Crop (stage 1).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Big Crop (stage 2).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Big Crop (stage 3).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Bushy Crop (stage 1).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Bushy Crop (stage 2).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Bushy Crop (stage 3).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Corn Crop (stage 1).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Corn Crop (stage 2).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Corn Crop (stage 3).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Leafy Crop (stage 1).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Leafy Crop (stage 2).png",
+      "Stardew Valley Expanded/[CP] Stardew Valley Expanded/assets/Items/BigCraftables/Leafy Crop (stage 3).png"
+    ]
+  },
+  {
+    "collection": "/home/codex/research/mod-art/Valley-Girls-1.6-Modpack-tree.json",
+    "sha256": "4e34517bdc44d0418fdf5a14957c21d1c162bc667b49514bce02bc9b8fe5fac4",
+    "candidateCount": 88,
+    "sample": [
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/amber.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/cake.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/caramel.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/creamsicle.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/custard.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/gumdrop.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/jade.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/lapis.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/macaron.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/pearl.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/pie.png",
+      "mods/Atelier Wildflour Crops and Forage/[BBM] Atelier Wildflour Crops and Forage/assets/raspberry.png"
+    ]
+  },
+  {
+    "inspectedPixels": "/home/codex/research/mod-art/rsv-z_rsvgarden.png",
+    "sha256": "2f8dd7b3cb8e5a8a1d99f59570adcf5e98ad0f6bd9e73f65ba779d8ac290f015",
+    "decision": "Decorative mixed garden sheet; no verified crop growth sequence or asset-specific original authorship. Not integrated."
+  }
+]

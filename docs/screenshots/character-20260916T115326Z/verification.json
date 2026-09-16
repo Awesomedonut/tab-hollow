@@ -1,0 +1,29 @@
+{
+  "strictAcceptance": false,
+  "productionBuild": "pass; index-DgfIfCzo.js",
+  "unitTests": "18/18 pass",
+  "browserTests": "5/5 pass after final crop refinement; both gameplay scenarios, action anchors, pond and soil joins",
+  "touchCycle": "pass; day 4, 105g, 11 seeds, one sold, reload preserved",
+  "sourceCommit": "3af7b7d53eb966ae350227943b29781f9ea4eab5",
+  "loopback": "http://127.0.0.1:5837",
+  "referenceEvidence": "/home/codex/research/clover-overnight/character/20260916T115326Z/final-compact/",
+  "referencePolicy": "VM-only official references excluded from repository; candidate-only captures retained",
+  "inspected": [
+    "reviewer original reference-crops-4x.png and gameplay-ripe.png",
+    "native 1x/4x stage and before/after mask sheets",
+    "built UI-grown intermediate day 2, ripe day 3 and equal-native-scale gameplay/reference comparisons",
+    "fresh full-height and wide desktop, phone touch-grown ripe and sold/reloaded scenes"
+  ],
+  "preserved": [
+    "quiet soil PNG byte-identical",
+    "Ian walk/side-work PNG and action renderer byte-identical",
+    "runtime, save format, controls and imported world renderer unchanged"
+  ],
+  "unresolved": [
+    "crop leaves remain stiffer and simpler than official reference",
+    "single-species repeated crowns and broad rectangular prepared-bed envelopes",
+    "phone viewport restricts farm view",
+    "seed/hoe toolbar work deferred until crop material clears strict review"
+  ],
+  "agents": "No nested agents; this worker self-inspection does not substitute for the independent scheduled strict reviewer."
+}

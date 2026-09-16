@@ -1,0 +1,85 @@
+{
+  "checkout": "9b4cdd5281dc1076f78b6f64e67d4e64647c1758",
+  "workingTree": "M src/world-art.js\n M tests/world-art.spec.js\n?? docs/screenshots/world-20260916T142416Z/",
+  "origin": "http://127.0.0.1:7246",
+  "capturedAt": "2026-09-16T14:36:48.224Z",
+  "captures": [
+    {
+      "name": "desktop",
+      "path": "docs/screenshots/world-20260916T142416Z/final/desktop.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:7246/assets/index-Dt95A8hn.js"
+        ],
+        "tilled": 24,
+        "crops": 12
+      }
+    },
+    {
+      "name": "desktop-16x9",
+      "path": "docs/screenshots/world-20260916T142416Z/final/desktop-16x9.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:7246/assets/index-Dt95A8hn.js"
+        ],
+        "tilled": 24,
+        "crops": 12
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/screenshots/world-20260916T142416Z/final/touch.png",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:7246/assets/index-Dt95A8hn.js"
+        ],
+        "tilled": 24,
+        "crops": 12
+      }
+    }
+  ],
+  "diagnostic": {
+    "path": "docs/screenshots/world-20260916T142416Z/final/pond-camera-diagnostic.png",
+    "player": {
+      "x": 29,
+      "y": 20.8
+    },
+    "note": "Camera/player relocation only; no crop, day or inventory fixture."
+  }
+}

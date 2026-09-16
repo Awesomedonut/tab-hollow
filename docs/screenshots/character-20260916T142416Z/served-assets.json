@@ -1,0 +1,30 @@
+{
+  "origin": "http://127.0.0.1:7027",
+  "implementationCommit": "6c8f505029364e16bf2f64a7b97cf2f5100be4f5",
+  "assets": {
+    "turnip-stages.png": {
+      "sha256": "48afac02f5ee4b704c3ec829e1445af137080ca3bb80a503d57c4d81df1b5dc8",
+      "servedMatches": true
+    },
+    "source-soil-patch.png": {
+      "sha256": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+      "servedMatches": true
+    },
+    "soil.png": {
+      "sha256": "bff97006292832aaeb23aca19bae79cff93fbdfebbe15466b60feaca465c617e",
+      "servedMatches": true
+    },
+    "ian-side-work.png": {
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "servedMatches": true
+    }
+  },
+  "preservation": {
+    "allEarlyStagesByteIdentical": true,
+    "src/character-art.js": "0b2c282c56c8a21e5a5de88bb06b7b50f594db5f268f5da079e1ffd4dc1b6d45",
+    "src/character-poses.js": "30ce45bb64c23d4e33acd2639cfbcf9d616dd8ad79190d2bb1c3f90483837cf1",
+    "public/assets/ridgeside-character/source-Ian.png": "0a25d5e6a1c031c7f246013f551b45f06051d9bb2073258635895c93406e11d7",
+    "public/assets/native-farming/ian-side-work.png": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "dryWetAlphaIdentical": true
+  }
+}

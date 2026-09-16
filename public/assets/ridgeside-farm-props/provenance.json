@@ -1,0 +1,111 @@
+{
+  "source_project": "Ridgeside Village",
+  "author": "Rafseazz and Ridgeside Village graphics contributors; see SOURCE-CREDITS.md",
+  "revision": "1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9",
+  "license": "CC-BY-SA-4.0 (upstream non-SMAPI artwork)",
+  "files": [
+    {
+      "output": "chicken.png",
+      "source": "Ridgeside Development/[CP] Ridgeside Village/Assets/Maps/TileSheets/RVanimals.png",
+      "sha256": "c186e41b73df1bf4b3bfa365795e1a6b8a3ff1293b0d9f93bbc1cdbb574f9c0e",
+      "frame_size": [
+        20,
+        16
+      ],
+      "frames": [
+        {
+          "source_rect": [
+            0,
+            193,
+            16,
+            15
+          ],
+          "destination": [
+            2,
+            1
+          ],
+          "anchor": [
+            10,
+            15
+          ]
+        },
+        {
+          "source_rect": [
+            37,
+            192,
+            17,
+            16
+          ],
+          "destination": [
+            21,
+            0
+          ],
+          "anchor": [
+            10,
+            15
+          ]
+        },
+        {
+          "source_rect": [
+            76,
+            193,
+            17,
+            15
+          ],
+          "destination": [
+            41,
+            1
+          ],
+          "anchor": [
+            10,
+            15
+          ]
+        },
+        {
+          "source_rect": [
+            112,
+            192,
+            16,
+            16
+          ],
+          "destination": [
+            62,
+            0
+          ],
+          "anchor": [
+            10,
+            15
+          ]
+        }
+      ],
+      "changes": "Native opaque pixels unchanged; transparent padding normalized to fixed foot anchor.",
+      "source_url": "https://raw.githubusercontent.com/Rafseazz/Ridgeside-Village-Mod/1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9/Ridgeside%20Development/%5BCP%5D%20Ridgeside%20Village/Assets/Maps/TileSheets/RVanimals.png",
+      "outputSha256": "73663a7217c51035982e069849ca915c824fb3675d31077660cf249343d3e2a5"
+    },
+    {
+      "output": "sign.png",
+      "source": "Ridgeside Development/[CP] Ridgeside Village/Assets/Maps/TileSheets/zridgesideCraftables.png",
+      "sha256": "e1e0aecc5934b6f7ea420014c1b3943ea4d7183bf14c62f215184b83d2729e7e",
+      "source_rect": [
+        80,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        31
+      ],
+      "changes": "Native transparent crop, unchanged pixels.",
+      "source_url": "https://raw.githubusercontent.com/Rafseazz/Ridgeside-Village-Mod/1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9/Ridgeside%20Development/%5BCP%5D%20Ridgeside%20Village/Assets/Maps/TileSheets/zridgesideCraftables.png",
+      "outputSha256": "61434e1c434e132cb59c71f1427b6a6ae68cb923276c35df8ab7e73f10f23776"
+    }
+  ],
+  "permissionReview": {
+    "basis": "Pinned upstream README licenses non-SMAPI artwork CC BY-SA 4.0. Preserved upstream graphics credits inspected; no conflicting notice identified for these two source sheets/crops.",
+    "exclusions": "WhiteChicken companion config refers to base-game Animals/White Chicken. That external vanilla sprite is not used or shipped. Included chickens are exact crops of the retained RVanimals.png; no unrelated mod assets are included.",
+    "changes": "Native transparent crops, normalized padding, runtime per-frame mirroring for left travel and project-authored FARM/POND text on the sign. No resampling, recoloring or opaque source pixel edits. Board markers: previously cleared RePixel young crop (Nina custom permission; ../native-farming/provenance.json) or project-authored wave pixels.",
+    "license": "CC-BY-SA-4.0",
+    "reviewedOn": "2026-09-16"
+  }
+}

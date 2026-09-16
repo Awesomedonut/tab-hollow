@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.firecrawl/
+test-results/
+playwright-report/
+ops/*.log
+ops/*.pid
+.env*
+
+# Worker-owned local builds and scratch evidence
+.artifacts/

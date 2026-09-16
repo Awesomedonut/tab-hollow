@@ -1,0 +1,39 @@
+{
+  "vmLoopback": "http://127.0.0.1:5496",
+  "builtScript": "index-DNMnQX68.js",
+  "sha256": {
+    "dist/assets/index-DNMnQX68.js": "a90b1fbec1f9924ec32e6f5dbd935e2915c8ecc375b8e976c3f10ba9ca0e934f",
+    "public/assets/ridgeside-terrain/terrain.png": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a"
+  },
+  "checks": {
+    "unit": 18,
+    "playwright": 5,
+    "sourceReproduction": true,
+    "all128FramesSouthernWaterMaxAdjacentStep": 2,
+    "beforeSouthernWaterMaxAdjacentStep": 8
+  },
+  "review": "Actual 4x before/after grass and all bank orientations, all four 32-frame cycle sheets, both desktop sizes, genuine touch and gameplay-grown captures inspected. Strict visual acceptance not claimed.",
+  "gameplayBuild": "index-CES8f1mr.js (same terrain/gameplay; final framing cutoff 960 replaces 900 without affecting these 1000/844px captures)",
+  "integrated": {
+    "merge": "7a8ed0d",
+    "main": "7254506",
+    "builtScript": "index-BZ1aaR78.js",
+    "checks": [
+      {
+        "path": "assets/index-BZ1aaR78.js",
+        "status": 200,
+        "sha256": "50e3b327d72bb4a4d5d3362fbc976f0ba8ced18839a18db447164ced9055e037"
+      },
+      {
+        "path": "assets/ridgeside-terrain/terrain.png",
+        "status": 200,
+        "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a"
+      }
+    ],
+    "unit": 18,
+    "playwright": 5,
+    "fullBuiltPondCycle": 128,
+    "captureDirectory": "integrated",
+    "cycleDirectory": "integrated-cycle"
+  }
+}

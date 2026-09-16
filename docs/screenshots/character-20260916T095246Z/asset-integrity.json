@@ -1,0 +1,20 @@
+{
+  "turnip-stages.png": {
+    "sha256": "dd0eba6a412d8455fdd461f60e4e7b24b57a00b939e05b941c0865774e6e2e76",
+    "servedMatchesSource": true
+  },
+  "soil.png": {
+    "sha256": "e0b0c73f04436b3899611adee5b2a6409c68b9f3e5889a8b77a20d51c1c87630",
+    "servedMatchesSource": true
+  },
+  "ian-side-work.png": {
+    "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "servedMatchesSource": true
+  },
+  "dryWetAtlasMasksEqual": true,
+  "nativeSideHoeUnchanged": true,
+  "cropAtlasSize": [
+    64,
+    64
+  ]
+}

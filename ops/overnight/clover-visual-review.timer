@@ -1,0 +1,9 @@
+[Unit]
+Description=Review Clover Hollow with a visual agent every 30 minutes
+[Timer]
+OnActiveSec=30min
+OnUnitActiveSec=30min
+AccuracySec=15s
+Unit=clover-visual-review.service
+[Install]
+WantedBy=timers.target

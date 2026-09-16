@@ -1,0 +1,113 @@
+{
+  "checkout": "47ca6d9422ed586ebf6adfc9e6e6bbfecc1b505a",
+  "workingTree": "?? docs/screenshots/world-20260916T060754Z/",
+  "origin": "http://127.0.0.1:5217",
+  "capturedAt": "2026-09-16T06:24:09.167Z",
+  "captures": [
+    {
+      "name": "desktop",
+      "path": "docs/screenshots/world-20260916T060754Z/desktop.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5217/assets/index-j9_jzuEL.js"
+        ],
+        "tilled": 14,
+        "crops": 6
+      }
+    },
+    {
+      "name": "desktop-16x9",
+      "path": "docs/screenshots/world-20260916T060754Z/desktop-16x9.png",
+      "options": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5217/assets/index-j9_jzuEL.js"
+        ],
+        "tilled": 14,
+        "crops": 6
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/screenshots/world-20260916T060754Z/touch.png",
+      "options": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:5217/assets/index-j9_jzuEL.js"
+        ],
+        "tilled": 14,
+        "crops": 6
+      }
+    }
+  ],
+  "diagnostic": {
+    "path": "docs/screenshots/world-20260916T060754Z/pond-camera-diagnostic.png",
+    "player": {
+      "x": 29,
+      "y": 20.8
+    },
+    "note": "Camera/player relocation only; no crop, day or inventory fixture.",
+    "timedOffsetsMs": [
+      0,
+      250,
+      500,
+      750,
+      1000
+    ]
+  },
+  "compositorDiagnostic": {
+    "origin": "http://127.0.0.1:5216",
+    "frames": [
+      0,
+      1,
+      3,
+      4,
+      7,
+      8,
+      31,
+      63
+    ],
+    "frameDurationMs": 250,
+    "scale": 3,
+    "note": "Direct native compositor output; no gameplay state fixture."
+  },
+  "renderSourceSha256": {
+    "src/world-art.js": "84239a16c28fc895d0325b970364d0f91cf8be81a15f860594a73f6041887982",
+    "src/render.js": "d9f521d42eb60646228c80b2f79ad8aa71210ffd15cb65e0ef07b3b1ad9caf08",
+    "public/assets/ridgeside-terrain/terrain.png": "f34372ed9e84546b6689cdd16c14b8f74066aad39981203ac36a1a54ce8ed79a"
+  }
+}

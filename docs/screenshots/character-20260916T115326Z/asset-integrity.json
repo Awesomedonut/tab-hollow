@@ -1,0 +1,59 @@
+{
+  "origin": "http://127.0.0.1:5837",
+  "head": "3af7b7d53eb966ae350227943b29781f9ea4eab5",
+  "files": {
+    "turnip-stages.png": {
+      "sha256": "864553729e318d11df02b60f945dfd25191d32ba0302f25c74b0bd9c632c0cf9",
+      "servedMatches": true,
+      "provenanceMatches": true
+    },
+    "soil.png": {
+      "sha256": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+      "servedMatches": true,
+      "provenanceMatches": true
+    },
+    "ian-side-work.png": {
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "servedMatches": true,
+      "provenanceMatches": true
+    },
+    "source-soil-patch.png": {
+      "sha256": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+      "servedMatches": true,
+      "provenanceMatches": true
+    }
+  },
+  "preserved": {
+    "public/assets/native-farming/soil.png": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+    "public/assets/native-farming/ian-side-work.png": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "public/assets/ridgeside-character/ian-walk.png": "712d4b0c04bc17327f79f0ae152ce414dfefe4aa75a40c3b3f141cf4e855fce5",
+    "src/character-art.js": "867d892e5a52e204109fc2ac2e66f0450132090504bb406809c6373e5cb5e5f9",
+    "src/character-poses.js": "460f52bef449fe7dcbcce5b4a9904395eec31f01cf43385943adbe0d9b8d06ca",
+    "src/world-art.js": "b46e0e36013e3eba80c4724917196a940cb9fb9a6b29fb76636045c3550619a6"
+  },
+  "stageGeometry": {
+    "atlas": [
+      64,
+      64
+    ],
+    "frame": [
+      16,
+      32
+    ],
+    "stageOpaqueCounts": [
+      [
+        39,
+        44,
+        95,
+        121
+      ],
+      [
+        39,
+        45,
+        98,
+        120
+      ]
+    ]
+  },
+  "script": "index-DgfIfCzo.js"
+}

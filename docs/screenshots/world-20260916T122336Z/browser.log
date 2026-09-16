@@ -1,0 +1,16 @@
+
+> clover-hollow@0.1.0 test:e2e
+> playwright test
+
+
+Running 5 tests using 1 worker
+
+(node:1744747) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser.spec.js:6:1 › browser completes first harvest, sells, buys and restores its save (4.4s)
+  ✓  2 tests/browser.spec.js:64:1 › click tools, mobile touch controls, reset confirmation and invalid-save recovery (3.2s)
+  ✓  3 tests/character-actions.spec.js:3:1 › action poses keep native boots fixed, mirror watering and finish on idle (765ms)
+  ✓  4 tests/world-art.spec.js:6:1 › native pond frames animate beneath a stable pier and preserve dry corners (1.5s)
+  ✓  5 tests/world-art.spec.js:88:1 › connected soil keeps wet/dry masks and updates cached joins after tilling (692ms)
+
+  5 passed (11.1s)

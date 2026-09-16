@@ -1,0 +1,24 @@
+{
+  "origin": "http://127.0.0.1:5837",
+  "servedAssets": {
+    "turnip-stages.png": "be744e458d9ea540b3387407a4e4ec101e6c5c89c725bf3ab2fdf88743165494",
+    "source-soil-patch.png": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+    "soil.png": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+    "ian-side-work.png": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c"
+  },
+  "strictVisualAcceptance": false,
+  "soilAtlasAlphaUnchanged": true,
+  "ianSideHoeBytesUnchanged": true,
+  "frameGeometry": {
+    "atlas": [
+      64,
+      64
+    ],
+    "frame": [
+      16,
+      32
+    ],
+    "variants": 2,
+    "stages": 4
+  }
+}

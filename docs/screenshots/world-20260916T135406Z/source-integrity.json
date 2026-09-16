@@ -1,0 +1,13 @@
+{
+  "sourceSha256": "794c95c44c089c86d0eca0c1733aeef2100f07dde2b3060d6db485c5b76b1929",
+  "atlasSha256": "f31defbcb0d480fc743d47b8826eb898d0994b7e5af907eb5094394c52337bce",
+  "changedAtlasPixels": 768,
+  "onlyChangedRectangleXYWH": [
+    64,
+    336,
+    48,
+    16
+  ],
+  "otherAtlasPixelsIdentical": true,
+  "sourceMapOutputReconstruction": "passed"
+}

@@ -1,0 +1,10 @@
+
+Running 5 tests using 1 worker
+
+  ✓  1 tests/browser.spec.js:6:1 › browser completes first harvest, sells, buys and restores its save (4.6s)
+  ✓  2 tests/browser.spec.js:66:1 › click tools, mobile touch controls, reset confirmation and invalid-save recovery (3.6s)
+  ✓  3 tests/character-actions.spec.js:3:1 › action poses keep native boots fixed, mirror watering and finish on idle (896ms)
+  ✓  4 tests/world-art.spec.js:6:1 › native pond frames animate beneath a stable pier and preserve dry corners (1.9s)
+  ✓  5 tests/world-art.spec.js:94:1 › connected soil keeps wet/dry masks and updates cached joins after tilling (881ms)
+
+  5 passed (12.4s)

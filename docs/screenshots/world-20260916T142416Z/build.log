@@ -1,0 +1,13 @@
+
+> clover-hollow@0.1.0 build
+> vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 10 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  6.79 kB │ gzip:  2.87 kB
+dist/assets/index-Cyx8yazm.css  16.81 kB │ gzip:  4.59 kB
+dist/assets/index-Dt95A8hn.js   45.14 kB │ gzip: 18.91 kB
+✓ built in 352ms

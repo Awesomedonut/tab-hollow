@@ -1,0 +1,37 @@
+[
+  {
+    "path": "assets/index-CceGH-0V.js",
+    "status": 200,
+    "sha256": "f48b56080a190e96fc94a472a4ed5d1df1b1701e5f19b2f6dd2dc8aa850be7a8"
+  },
+  {
+    "path": "assets/native-farming/turnip-stages.png",
+    "status": 200,
+    "sha256": "2b9b5a7a451276c8eea6333e527ea629e5a8904aa36a5a997341a10d869f19eb"
+  },
+  {
+    "path": "assets/native-farming/soil.png",
+    "status": 200,
+    "sha256": "ce465cd732fda099b6652397699fae796ac4d65c2463391e4ac269a756e593f3"
+  },
+  {
+    "path": "assets/native-farming/ian-side-work.png",
+    "status": 200,
+    "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c"
+  },
+  {
+    "path": "assets/ridgeside-character/ian-walk.png",
+    "status": 200,
+    "sha256": "712d4b0c04bc17327f79f0ae152ce414dfefe4aa75a40c3b3f141cf4e855fce5"
+  },
+  {
+    "path": "assets/native-farming/provenance.json",
+    "status": 200,
+    "sha256": "ebb24aa4af53b21f0d541c7d0930536c5df1fe340522424b9f014d28940ab638"
+  },
+  {
+    "path": "assets/ridgeside-character/provenance.json",
+    "status": 200,
+    "sha256": "031c82433100a5224ff13098bb9ccb49cc14acd33d39bff920a604449a58cf70"
+  }
+]

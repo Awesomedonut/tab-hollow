@@ -1,0 +1,18 @@
+{
+  "turnip-stages.png": {
+    "sha256": "0c7c7c1398caa7106cc562e38e97235d8a3adfdcca60a6b7d9b06ee3fd84010e",
+    "matchesProvenance": true
+  },
+  "source-soil-patch.png": {
+    "sha256": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+    "matchesProvenance": true
+  },
+  "soil.png": {
+    "sha256": "e0b0c73f04436b3899611adee5b2a6409c68b9f3e5889a8b77a20d51c1c87630",
+    "matchesProvenance": true
+  },
+  "ian-side-work.png": {
+    "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "matchesProvenance": true
+  }
+}

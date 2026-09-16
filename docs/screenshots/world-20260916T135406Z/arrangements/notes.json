@@ -1,0 +1,12 @@
+{
+  "baseline": "../before/desktop.png",
+  "trials": {
+    "a": "16px quiet lawn; 12px earth: fine weave/speckles",
+    "b": "24px lawn: rejected conspicuous curved root bands",
+    "c": "20px mixed lawn: residual roots across open space",
+    "d": "20px quieter interiors with rooted margins; quiet-only 16px earth: repetitive dashes",
+    "e": "same lawn; quiet earth plus large clods: blotches and yellow ticks",
+    "f": "selected lawn; complete quiet earth plus smaller native clod faces"
+  },
+  "referenceComparison": ".artifacts/world-20260916T135406Z/reference-arrangements-{1,4}x.png stays VM-only; stardew-6 reference crop [1440,0,240,192] normalized from 3 display pixels per native pixel to 80x64 using nearest neighbor. Candidate crop [312,64,80,64]."
+}

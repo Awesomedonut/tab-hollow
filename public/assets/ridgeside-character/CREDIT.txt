@@ -1,0 +1,6 @@
+Ian character sprites from Ridgeside Village by Rafseazz and contributors.
+https://github.com/Rafseazz/Ridgeside-Village-Mod
+Licensed CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Clover Hollow uses a lossless crop of the 16 walking frames, retaining the native 16x32 pixel grid.
+The cropped sprite remains CC BY-SA 4.0. Full source, source credits, license, and provenance ship alongside it.
+No affiliation or endorsement is implied.

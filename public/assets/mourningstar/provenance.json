@@ -1,0 +1,40 @@
+{
+  "author": "MourningStar / TheMourningStar",
+  "mod": "https://www.nexusmods.com/stardewvalley/mods/3113",
+  "source": "https://staticdelivery.nexusmods.com/mods/1303/images/3113/3113-1544389007-1268692174.png",
+  "source_kind": "author preview-derived; source image has resampling softness",
+  "permission_date": "2023-12-19",
+  "credit_details": "docs/MOURNINGSTAR.md",
+  "assets": [
+    {
+      "file": "cottage.png",
+      "crop": [
+        32,
+        114,
+        144,
+        144
+      ],
+      "sha256": "9825591a26de6bb0a5f987d4ae6f2b02dfd22236ee78b85f8576380d935c6ca1"
+    },
+    {
+      "file": "market.png",
+      "crop": [
+        32,
+        259,
+        144,
+        144
+      ],
+      "sha256": "07aa21acadd64bf7d5d30b4135cb97d847f27c55c24b9db9a485a298f05cb8c7"
+    },
+    {
+      "file": "well.png",
+      "crop": [
+        215,
+        466,
+        50,
+        79
+      ],
+      "sha256": "dcb31233bc7dc1b28499d22c84586cd3337abdd86a7c6f6e971a276a2f39db29"
+    }
+  ]
+}

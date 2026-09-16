@@ -1,0 +1,10 @@
+{
+  "origin": "http://127.0.0.1:6487",
+  "checks": {
+    "turnip-stages.png": "5c5e221d559f77fccffdd7eac393ed121db584ab717a6d0a2b3a8fed3e93deee",
+    "soil.png": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+    "ian-side-work.png": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+    "tool-water.png": "9818c54f377a63d076baa3a855321a36e2e2d0fdf9c1ab4ad0d0a9d6676b46d5"
+  },
+  "youngAndSeedlingUnchanged": true
+}

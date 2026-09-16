@@ -1,0 +1,87 @@
+{
+  "checkout": "05ed446bfcb03e35d4e360a39444a26c2438f93a",
+  "workingTree": "",
+  "origin": "http://127.0.0.1:5173/?test",
+  "captures": [
+    {
+      "name": "fresh-farm",
+      "path": "docs/screenshots/fresh-farm.png",
+      "context": {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "height": 1000,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/main.js?t=1789538675772"
+        ],
+        "tilled": 14,
+        "crops": 6
+      }
+    },
+    {
+      "name": "v4-desktop-16x9",
+      "path": "docs/screenshots/v4-desktop-16x9.png",
+      "context": {
+        "viewport": {
+          "width": 1440,
+          "height": 810
+        }
+      },
+      "errors": [],
+      "state": {
+        "touch": 0,
+        "coarse": false,
+        "width": 1440,
+        "height": 810,
+        "scrollWidth": 1440,
+        "scripts": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/main.js?t=1789538675772"
+        ],
+        "tilled": 14,
+        "crops": 6
+      }
+    },
+    {
+      "name": "mobile",
+      "path": "docs/screenshots/mobile.png",
+      "context": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "errors": [],
+      "state": {
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "height": 844,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:5173/@vite/client",
+          "http://127.0.0.1:5173/src/main.js?t=1789538675772"
+        ],
+        "tilled": 14,
+        "crops": 6
+      }
+    }
+  ],
+  "fixture": {
+    "path": "docs/screenshots/first-harvest.png",
+    "state": "18 ripe crops and day four injected; visibly labeled diagnostic fixture",
+    "gameplayProof": false
+  }
+}

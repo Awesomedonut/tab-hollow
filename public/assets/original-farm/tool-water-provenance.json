@@ -1,0 +1,13 @@
+{
+  "author": "Clover Hollow project",
+  "source": "Project-authored native pixel geometry in ops/generate-sprites.py:water; no external source image",
+  "source_url": null,
+  "license_permission": "Original project artwork; no third-party asset permission required",
+  "native_canvas": [
+    24,
+    24
+  ],
+  "crop": null,
+  "adaptations": "Compact open grip, recessed fill mouth, chamfered metal belly, shaded side face, short rising neck and flared sprinkler rose. No resampling.",
+  "sha256": "9878b5bb258bb51a23c53dee7d71e6fc650adf616b19655d27ad89a251e2091a"
+}

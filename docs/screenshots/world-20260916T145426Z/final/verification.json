@@ -1,0 +1,25 @@
+{
+  "implementationCommit": "8524871",
+  "unitTests": {
+    "passed": 20,
+    "failed": 0
+  },
+  "browserTests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "productionBundle": "index-BvT0lW2e.js",
+  "loopback": "http://127.0.0.1:7496",
+  "pondPhasesCapturedAndInspected": 128,
+  "sourceReproduction": "source PNG, TMX and output SHA256 pass; atlas bytes unchanged",
+  "worldSourceSha256": "39ae8fa94ee2dacdeb068fb727b21db0c541e0b5ac3cb25f54a2e67d841b7258",
+  "visualAcceptance": false,
+  "deployment": false,
+  "remaining": [
+    "denser upright/diagonal lawn than reference 6",
+    "small lower teeth and stepped east contact",
+    "bright repeated currents",
+    "crop/soil fidelity and planting variety",
+    "cropped phone architecture"
+  ]
+}

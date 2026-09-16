@@ -1,0 +1,12 @@
+{
+  "origin": "http://127.0.0.1:6927",
+  "errors": [],
+  "phaseSeconds": [
+    0.02,
+    0.12,
+    0.23,
+    0.33,
+    0.42
+  ],
+  "fixture": "Action strip uses checkout drawFarmer with served assets; action scenes use the built renderer with source act calls and shortened travel. Fresh desktop is unmodified starting state."
+}

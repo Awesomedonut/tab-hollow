@@ -1,0 +1,35 @@
+{
+  "unit": "18/18",
+  "build": "passed",
+  "browser": "5/5: desktop/save, touch/recovery, character actions, pond, soil joins",
+  "touch": "full till/plant/water/sleep/harvest/sell/reload through touchscreen taps; only player travel relocated",
+  "reproduction": "original PNG, TMX and unchanged output atlas SHA256 verified",
+  "files": [
+    {
+      "path": "/assets/index-CuB6eO67.js",
+      "sha256": "68826564ce3f0a8ca9730ce8b45709413c1464be4160609479080b41155154a3",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/ridgeside-terrain/terrain.png",
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/turnip-stages.png",
+      "sha256": "864553729e318d11df02b60f945dfd25191d32ba0302f25c74b0bd9c632c0cf9",
+      "servedMatchesBuild": true
+    },
+    {
+      "path": "/assets/native-farming/soil.png",
+      "sha256": "e25e756c6fe9ad112e67841f311afd308394569e94d3c580b7e991115bacc847",
+      "servedMatchesBuild": true
+    }
+  ],
+  "ports": {
+    "development": 6236,
+    "finalBuild": 6237,
+    "baselineBuild": 6238
+  },
+  "deployed": false
+}

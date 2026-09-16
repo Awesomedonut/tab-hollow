@@ -1,0 +1,326 @@
+{
+  "reviewedOn": "2026-09-16",
+  "nativePixelGrid": 16,
+  "soil": {
+    "author": "Rafseazz and Ridgeside Village graphics contributors; see SOURCE-CREDITS.md",
+    "repository": "https://github.com/Rafseazz/Ridgeside-Village-Mod",
+    "commit": "1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9",
+    "sourceUrl": "https://raw.githubusercontent.com/Rafseazz/Ridgeside-Village-Mod/1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9/Ridgeside%20Development/%5BCP%5D%20Ridgeside%20Village/Assets/Maps/TileSheets/zrsvspiritrealm.png",
+    "sourceSha256": "794c95c44c089c86d0eca0c1733aeef2100f07dde2b3060d6db485c5b76b1929",
+    "retainedCropXYWH": [
+      80,
+      320,
+      48,
+      64
+    ],
+    "license": "CC-BY-SA-4.0",
+    "permissionUrl": "https://github.com/Rafseazz/Ridgeside-Village-Mod/blob/1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9/README.md#license-information",
+    "quarterCropsXYWH": [
+      [
+        88,
+        344,
+        8,
+        8
+      ],
+      [
+        100,
+        344,
+        8,
+        8
+      ],
+      [
+        112,
+        344,
+        8,
+        8
+      ],
+      [
+        88,
+        356,
+        8,
+        8
+      ],
+      [
+        100,
+        356,
+        8,
+        8
+      ],
+      [
+        112,
+        356,
+        8,
+        8
+      ],
+      [
+        88,
+        368,
+        8,
+        8
+      ],
+      [
+        100,
+        368,
+        8,
+        8
+      ],
+      [
+        112,
+        368,
+        8,
+        8
+      ]
+    ],
+    "concaveCropXYWH": [
+      88,
+      324,
+      8,
+      8
+    ],
+    "adaptations": "Native eight-pixel quarter crops; remove three pale exterior colors to transparency, map nine earth colors to dry/wet brown palettes, rotate concave quadrant 270/180/0/90 degrees. Exact palettes and atlas coordinates in adapt.py. Source ground art repurposed as tilled soil, not an upstream hoe-dirt sheet. Adaptation CC BY-SA 4.0. Four additional interior crops retain 28% of palette contrast relative to the corresponding dry/wet base; stored at x32/40/48/56,y16 (dry) or40 (wet). Deterministic world-coordinate selection varies interior quarters only; edges and concave joins retain original geometry. Iteration 20260916T065146Z: reduce repeated brightest lip color from (189,133,67) to (164,108,55); four interior variants receive zero to two authored broken shallow furrows, base minus 7 shadow / base plus 4 lower edge. Coordinates in adapt.py; wet states use the same geometry. Iteration 20260916T072156Z: compress all dry palette deviations toward base (153,99,53) by factor 0.38 before wet conversion; native alpha masks unchanged. Shared y3 shallow groove rows in all four interior variants; lengths and gaps follow fixed eight-quarter cadence [0,1,3,2,1,0,2,3] with tile-coordinate row offset, replacing noise-based quarter selection. No random per-pixel marks added.",
+    "exceptionsReview": "Source is RSV spirit-realm terrain already approved/integrated in this project. Repository README covers non-SMAPI subdirectories; inspected CREDITS lists graphics contributors, no separate restriction on these soil cells identified. No game sheets, third-party garden crops or assets carrying a conflicting notice included.",
+    "interiorVariantsXYWH": [
+      [
+        96,
+        352,
+        8,
+        8
+      ],
+      [
+        104,
+        352,
+        8,
+        8
+      ],
+      [
+        96,
+        360,
+        8,
+        8
+      ],
+      [
+        104,
+        360,
+        8,
+        8
+      ]
+    ],
+    "authored_followup_20260916T075206Z": "192x48 atlas: three 64x48 compatible edge layouts. Existing native source quarters retained, broad circular corners filled to chipped two-pixel shoulders, exposed perimeter clipped with varied two-pixel breaks; connecting quadrant borders untouched. Four authored interior clod/furrow arrangements each have a dark underside and broken warm crest. Dry/wet share all geometry. All exact masks and native coordinates in adapt.py; no resampling.",
+    "refinement_20260916T075206Z": "Source bevel flattened: perimeter-quarter RGB deviations attenuated to 18%; only exposed outer row has -9 shade, adjacent row -3. Native alpha unchanged from first clod pass, including all three edge layouts. Additional authored angular two-pixel crumbs interrupt the interior dash rhythm; exact masks/placements in adapt.py.",
+    "followup_20260916T082216Z": "Twelve authored 8x8 interior masks in three existing 64px atlas blocks: irregular open grooves, compact shaded clods, quiet areas and fragments, replacing repeated two-dash diagonals. Remove repeated [3,4],[4,4],[5,5] stamp from perimeter-quarter interiors. Unchanged dry/wet base palettes and alpha masks; no global recolor. Exact masks and positions in adapt.py, fixed coordinate selection in drawSoil.",
+    "followup_20260916T085250Z": {
+      "atlasSize": [
+        256,
+        176
+      ],
+      "surfaceRectsXYWH": [
+        [
+          0,
+          48,
+          128,
+          128
+        ],
+        [
+          128,
+          48,
+          128,
+          128
+        ]
+      ],
+      "adaptations": "Retain original Ridgeside native quarter crops and concave joins in first 192x48 atlas region. Remove twelve small stamped interior masks. Append two corresponding dry/wet 128x128 fields of twenty explicitly authored shallow scoops; exact polygons/positions in adapt.py. World-coordinate sampling crosses prepared-cell borders, source-atop native alpha at 70% opacity. Exposed contours receive one-pixel directional shade/light only, never internal cell boundaries. Reduce repeating two-pixel rim chips to isolated one-pixel nicks in one variant. Geometry is adapted CC BY-SA 4.0, not an upstream farming atlas. Cached 16x16 composite keyed by coordinates, water and all eight neighbors; cleared on source reconfiguration."
+    },
+    "followup_20260916T092236Z": {
+      "adaptations": "Replace closed oval scoops with 21 authored branching, broken cuts plus small angular clod planes in the continuous 128x128 world-sampled relief. Exact paths in adapt.py. One/two-pixel exposed rim nicks in three compatible layouts; world renderer applies interrupted one-pixel light/shadow crumbs. Native concave joins and all connecting quadrant boundaries preserved; dry/wet have identical geometry. CC BY-SA 4.0 adaptation of same retained Ridgeside crop, not upstream hoe dirt."
+    },
+    "followup_20260916T095246Z": {
+      "adaptations": "Remove all 21 long branching cuts. Replace with eight short 3\u20136px by 3px authored clod masks, 53 explicit anchors plus 40 offset companions in the continuous 128x128 field. Open shadow undersides and broken lit top faces, no connected crack networks. Exact masks, offsets and shading in adapt.py. Reduce compulsory every-quarter rim nicks to six selected exposed variant/edge pairs; dry/wet and connected joins remain matched. Same retained RSV fragment and CC BY-SA 4.0 adaptation terms."
+    },
+    "followup_20260916T102256Z": {
+      "adaptations": "Remove six per-quarter rim nick pairs. Keep retained RSV quarter/concave alpha and short clods; exposed boundaries now follow a 47-pixel irregular profile in world coordinates with 0-2 pixel relief depth. Connected neighboring sides remain uncarved. Broken shallow ledge shading follows exposed alpha; wet/dry geometry identical. Exact profile and shading in src/world-art.js drawSoil, source crops and palettes in adapt.py. Same CC BY-SA 4.0 adapted source; no cracks or blanket noise."
+    },
+    "followup_20260916T105306Z": {
+      "adaptations": "Eight explicitly authored 6\u20139px wide, 4\u20135px high broken clod faces replace tiny flat marks. Shared continuous 128x128 field retains 53 uneven anchors and 40 offset companions, with nearby 2\u20133px loose fragments. Five face/underside tones: base +19/+11/+3/-10/-21. Sample at full opacity through retained native quarter/concave alpha. Exposed world-coordinate perimeter blends 55% toward warm dry [184,129,63] or wet [139,94,46] crumb; inward north/west two-pixel shoulder darkens by 10. Exact native masks and placement in adapt.py; edge lighting in drawSoil. All dry/wet alpha and connected geometry unchanged. Authored CC BY-SA 4.0 adaptation, not upstream hoe dirt. Crop and Ian files unchanged.",
+      "researchDecision": "No cleared native growth atlas found in bounded retained-source review; see docs/CHARACTER-20260916T105306Z.md."
+    },
+    "connectedReliefFollowup_20260916T105306Z": {
+      "nativeInteriorCropXYWH": [
+        96,
+        352,
+        16,
+        16
+      ],
+      "adaptations": "Restore actual retained source interior texture at native 1:1 pixels with 65% of mapped palette deviation. Four explicitly authored crest profiles span 24 to 30 pixels, repeated at staggered wrapped world-field positions with tapered ends and two shallow eight-pixel cross sections. These wider turned-earth shoulders connect previously isolated clods across 16px tile boundaries. Reduce independent clod/companion density. All exact crest offsets, positions, cross sections, palette arithmetic and wrapping are reproducible in adapt.py. Native connected/concave quadrant masks, 256x176 atlas, dry/wet geometry and source license unchanged. Authored derivative relief, not an upstream hoe-dirt atlas. No crop edits, new downloads, reference pixels, smoothing or resampling."
+    },
+    "followup_20260916T112316Z": {
+      "nativeInteriorCropXYWH": [
+        96,
+        352,
+        16,
+        16
+      ],
+      "adaptations": "Remove all broad 24-30px wavy ridges and 6-9px clod masks. Retain original 16x16 native source interior at 1:1, 90% of the already compressed dry/wet palette deviation. Only twelve three-pixel low-contrast fragments in the continuous 128x128 field; exact positions in adapt.py. Reduce continuous bright boundary blend from 55% to 15%, with sparse world-coordinate crumbs at 35%; halve inward shoulder shade from -10 to -5. Geometry, native concave joins, dry/wet alpha and 256x176 atlas unchanged. CC BY-SA 4.0 adaptation of same retained RSV source; no new source or reference pixels."
+    },
+    "followup_20260916T132356Z": {
+      "nativeMottleCropsXYWH": [
+        [
+          98,
+          354,
+          5,
+          4
+        ],
+        [
+          105,
+          354,
+          4,
+          5
+        ],
+        [
+          99,
+          362,
+          5,
+          4
+        ],
+        [
+          105,
+          361,
+          4,
+          5
+        ]
+      ],
+      "adaptations": "28 irregular placements of four retained native dirt interior fragments, unscaled. Exclude flat base source pixels; mapped dry/wet palette deviations multiplied by 1.8 for restrained small mottles. Exact positions and color arithmetic in adapt.py. Replaces twelve authored three-pixel crumbs. No broad wavy ridges. Native outer/concave quarters and all alpha geometry unchanged; continuous 128x128 fields. Same CC BY-SA 4.0 source and notices."
+    },
+    "followup_20260916T135406Z": {
+      "adaptations": "Renderer-only exposed-edge change: replace recurring 47px zero/two-pixel bite profile with a 113px zero/one-pixel profile; shallow inward runs at [13,5], [39,8], [76,4], [98,6] (start,length). Sampling remains continuous world-coordinate with cross*7 offset, unchanged native corner/concavity masks and all connected joins. Dry/wet silhouettes identical. Native soil PNG and mottled interiors byte-identical; no noisy ridges added. Same RSV CC BY-SA 4.0 adaptation."
+    },
+    "followup_20260916T142416Z": {
+      "adaptations": "Exposed convex corners use three shallow steps (local ex+ey<4 transparent); all connected/concave quarter geometry retained. Fourteen existing irregular mottle anchors receive native-fragment-shaped top faces and one-pixel lower undersides. Fragment occupancy excludes base source earth; exposed upper pixel base+5, lower underside base-9. Exact source fragments/anchors and executable geometry in adapt.py. Continuous 128x128 dry/wet fields retain shared geometry, restrained material and no broad ridges. Same retained RSV patch and CC BY-SA 4.0 terms. Renderer/cache/joins unchanged."
+    },
+    "followup_20260916T145426Z": "Six irregular groups of two/three native source fragment occupancies at exact offsets in adapt.py, using existing four documented mottle crops. Same shallow +5/-9 relief and palette. Renderer uses 157px world-coordinate profile with unequal one-pixel shelves and four inset two-pixel dips; connected sides and concavities retain native masks. No ridges/resampling/new source.",
+    "followup_20260916T152436Z": {
+      "adaptations": "Twelve authored 6\u201310px shallow settled clod faces over retained native 1:1 dirt material, exact polygons/placement in adapt.py. Three-pixel inward shoulder shading in drawSoil, with lit outer crumb and shaded inner rebate. Existing continuous exposed contour, all connected seams and wet/dry alpha masks preserved. These added faces are authored relief, not native upstream hoe dirt. No new sources or licenses."
+    }
+  },
+  "crops": {
+    "author": "Nina (misnina)",
+    "sourceUrl": "https://misnina.itch.io/stardew-valley-item-repixel",
+    "creditUrl": "https://mastodon.art/@misnina",
+    "archive": "stardew_V3.zip",
+    "sourcePath": "stardew/crops/1x_19.png",
+    "sourceSha256": "250f8f18885e0e125f7c678cee182dc727015a212d7aa3da383a9971aa31d728",
+    "baseAdaptation": "../nina-repixel/turnip.png; documented cream/purple palette in docs/REPIXEL.md",
+    "baseSha256": "173fef7d3c343a2cd28b62722e6cec43b6b292c61549e5a1e90cbe0d3b0ee4d8",
+    "permission": "These are free to use for anything you want, even beyond using them in the game itself.",
+    "permissionType": "Author custom permission, not a standardized CC license",
+    "adaptations": "Four project-authored 16x32 growth cells. Seedling cotyledons still crop approved Nina fan [5,2,7,4], with subcrops documented in adapt.py. Later leaves are newly authored closed 6x8 upright, 7x7 diagonal and 8x5 front-fold pixel masks using the same remapped Nina four-color ramp, NOT copied upstream leaf/growth silhouettes. Exact masks, integer placements, mirrors and overlap order in adapt.py. The earlier rotated [10,3,4,8] fragment is no longer used. Mature bulb remains source [3,7,7,4], six corner pixels omitted and upper sides overlapped by authored leaves. Single rooted contact at x8,y30; soil contact y30/31. No resampling, new downloads or new permission assumptions. 20260916T075206Z: young three-leaf open silhouette, full low spreading side/front folds, mature taller twin back blades and broad overlapping side folds with partly buried root. Exact per-stage placements in adapt.py; 16x32 frames and root anchor unchanged.",
+    "refinement_20260916T075206Z": "Mature left back leaf is an authored recurved 7x9 mask, replacing the mirrored upright blade; rooted anchor and frame geometry unchanged. Existing source shoulder [3,7,7,4] retains contour except transparent bottom row, shaded row ramp [192,169,113]/[161,135,87]/[126,99,65], one highlight [218,196,141]. Exact masks and overlap order in adapt.py. No new source pixels.",
+    "followup_20260916T082216Z": {
+      "atlasSize": [
+        64,
+        64
+      ],
+      "frameSize": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "variants": 2,
+      "selection": "(floor(tile.x)*7 + floor(tile.y/2)*3) & 1, stable for all stages and times; floors also support the fractional-position farm-sign decoration",
+      "adaptations": "Two rows of four growth cells. Source cotyledon [5,2,7,4] and buried bulb [3,7,7,4] retained; new narrow folded 5x8, 6x7, 6x6 and 6x5 native masks leave soil gaps between leaf planes. Mature source shoulder shaded and buried at y28..30. Later leaf silhouettes and all placement are project-authored derivatives, not an upstream growth sheet. Exact masks, placements, mirrors, palette and overlap order in adapt.py. No resampling or new source."
+    },
+    "followup_20260916T085250Z": {
+      "adaptations": "Replace narrow pronged leaf masks with broad bent overlapping upper faces and shaded lower creases; do not outline every leaf in the darkest color. Exact 7x7 upright, 8x6 left, 8x6 right, 8x4 low-fold masks and placements in adapt.py. Retain Nina cotyledon crop [5,2,7,4] and mature shoulder [3,7,7,4] with buried bottom row. Two stable variants, four 16x32 stages, existing rooted anchor. Later leaf shapes are substantially project-authored using Nina-derived palette, not upstream plant growth frames. No new assets or permissions."
+    },
+    "followup_20260916T092236Z": {
+      "adaptations": "Replace five overlapping broad fans with three dominant closed 7x7 folded leaves; ripe adds one small 6x4 forward fold. Bright upper surfaces meet dark inner creases; open tip gaps and buried central root remain. Exact per-stage native placements and two variants in adapt.py. Nina fan [5,2,7,4] and root shoulder [3,7,7,4] retained; later leaves are substantially project-authored derivatives using the cleared source palette, NOT upstream growth frames. Shortened broad planes replace the rejected thin first-pass prongs. Fixed young leaf overflow at the 32px frame boundary. Original custom permission, sources and source hashes unchanged."
+    },
+    "followup_20260916T095246Z": {
+      "adaptations": "Three dominant broad bent 7x7 leaf masks with 4\u20135px lit faces, descending shaded folds and open tip notches; ripe retains a short 8x4 forward fold and buried Nina shoulder. Central tip hooks to the side rather than ending in a straight spear. Young/full/ripe placements and both stable variants in adapt.py; 16x32 frames, 64x64 atlas, rooted x8/y30 contact unchanged. Leaf ramp is [27,67,46], [40,111,65], [77,160,74], [151,209,111]. Source cotyledon [5,2,7,4] and buried root [3,7,7,4] remain the cleared Nina fragments; later silhouettes remain substantially project-authored derivatives, not upstream mod growth art. No new source or permissions."
+    },
+    "separation_followup_20260916T095246Z": {
+      "adaptations": "Lower the central 7x7 bent leaf to y21 (ripe) / y22 (full); broaden side lit faces and continuous dark undersides; side leaves at x1/x8 and y24/y25 with alternating stable heights. Reduce ripe front fold from 8x4 to 6x4 at [7,28]. Consolidate highlight pixels into upper faces instead of striped interior highlights. Exact authored masks in adapt.py. Native 16x32 frame, source fragments, permission and root anchor preserved. First overly separated forked candidate rejected after UI-grown inspection; final masks retain smaller open notches."
+    },
+    "followup_20260916T102256Z": {
+      "adaptations": "Two fixed 16x32 native-grid crowns with two dominant broad overlapping leaf planes and one smaller side fold; taller rear plane hooks sideways over a dark underside. A broad near face overlaps its lower crease asymmetrically. Full/ripe rear starts y19/y18, stable left/right variant placements and all exact pixel masks in adapt.py. Initial upright candidate rejected as cactus-like after UI-grown comparison; final hook and near-fold shadow corrected. Nina cotyledon [5,2,7,4] and buried shoulder [3,7,7,4] retained. Later leaf masks are project-authored derivatives, not upstream Nina growth sprites. Palette unchanged. No reference pixels, resampling, new downloads or changed permission."
+    },
+    "followup_20260916T112316Z": {
+      "adaptations": "Substantial replacement of complete native silhouettes: 7x11 recurved rear, 8x8 left diagonal face, 7x7 right hooked face, 8x5 forward ripe fold and separate 5x6 young unfurling mask. Every row and placement is executable in adapt.py. Dark inner folds occupy the turned underside; highlights follow diagonal faces instead of blunt top blocks. Young retains Nina fan with one unfurling leaf; full has three unequal planes; ripe spreads upper sides and adds lower crossing fold. Two variants, fixed 16x32 geometry and rooted contact retained. Source cotyledon [5,2,7,4] and buried root [3,7,7,4] remain. Later masks are project-authored derivatives, not Nina upstream growth frames. Same four-color ramp, no resampling, new downloads or official reference pixels.",
+      "gameplayRefinement": "After equal-scale UI-grown inspection, lower ripe rear to y19, move sides inward to x1/x8 at y22/23, and raise forward fold to y25. Reduces tall open fork envelope while retaining hooked masks and a distinct fourth ripe fold. Exact fixed per-variant placement in adapt.py.",
+      "foldFollowup": "Preserved completed iteration; sharpen rear blade to an off-center taper, bend left tip downward with an open soil notch under the face, shorten right hooked lip, and reduce ripe near face to expose a darker overlapping underside. Same four-color palette, exact masks in adapt.py. No new source or resampling; unchanged stages, variants, source fragments, anchors and permissions."
+    },
+    "followup_20260916T115326Z": {
+      "adaptations": "Replace all mature part assemblies with four complete authored 16px-wide crown masks: full/full_b (13 rows, y18), ripe/ripe_b (13 rows, y17). Grounded dark junction at x8/y28..30; shorter upright lower rear stem turns into an off-center broad upper leaf. Side lobes have short transverse lit faces, broad dark folded undersides and unequal heights; ripe has a separate front lobe over the rear junction, plus visible native root shoulder. Exact rows, colors and placements in adapt.py. First excessively upright 15-row full mask rejected during built component/gameplay review. Young and seedling cells, 16x32 frame geometry, two stable variants, source cotyledon [5,2,7,4], native root [3,7,7,4], soil and Ian bytes preserved. Project-authored derivative growth masks, not upstream native growth sprites. No new downloads, official reference pixels or resampling.",
+      "finalRefinement": "Built scene rejected overly tall cactus-like rear. Final ripe omits two stalk rows, widens turned top to a three-pixel lit face and lifts the broad front fold. Full and ripe remain separate complete masks; full y18 versus ripe y17, ripe has broader high side faces and a low front fold instead of long ribbon highlights."
+    },
+    "followup_20260916T122336Z": {
+      "adaptations": "Replace the four complete full/ripe masks with broad folded leaf faces, unequal side lobes and a substantial dark junction. Full and ripe each retain separate 16x13 masks at y18 and y17; original 16x32 cell, two stable variants and x8/y30 root anchor unchanged. Source cotyledon [5,2,7,4] and buried shoulder [3,7,7,4] retained. Exact pixel masks in adapt.py. Later masks are project-authored Nina adaptations, not an upstream growth atlas. No new source, palette change, reference pixels or resampling."
+    },
+    "followup_20260916T125346Z": {
+      "adaptations": "Replace all four mature whole-crown masks with uneven bent faces, diagonally lit upper planes, deep folded undersides and overlapping dark central junctions. Full crowns are 16x11 placed at [0,20]; ripe crowns 16x12 at [0,18] add outward leaves and a foreground leaf covering rear petioles. No palette change. Exact authored rows and placement in adapt.py. Seedling and young cells byte-identical, two stable variants and 16x32 geometry/root anchor retained. Nina cotyledon source [5,2,7,4] and buried shoulder [3,7,7,4] retained with existing adaptations. These are project-authored derivatives, not upstream Nina growth sprites. No new source, official pixels or resampling.",
+      "gameplayRefinement": "First UI-grown candidate still had an open U-shaped middle. Final ripe side faces rise into the rear leaf, shorten its exposed stem and cover the central junction. Replaced complete ripe masks, not a tip/palette pass. Full remains eleven rows versus twelve ripe rows; exact final rows in adapt.py.",
+      "crossingFaceFollowup": "Resumed invocation preserves the earlier committed compact crowns. Replaces all four mature masks with outward turned side faces, continuous dark undersides and a lower foreground leaf crossing the petiole junction. Same eleven/twelve-row dimensions, placements, four-color palette, retained Nina crops and native anchors; exact rows in adapt.py. First flat broad rear tops rejected in pixel inspection; final rear faces curve diagonally."
+    },
+    "followup_20260916T132356Z": {
+      "adaptations": "Replace four full/ripe crown masks with closed rounded bent faces: tapered highlight tips, 3-5px contiguous upper surfaces, substantial shaded undersides, overlapping near leaf and connected 2-3px petioles. Full remains 16x11 at [0,20], ripe 16x12 at [0,18]; exact authored masks in adapt.py. Palette unchanged. Seedling/young, two stable variants, 16x32 geometry, Nina cotyledon [5,2,7,4] and buried shoulder [3,7,7,4] retained. Project-authored cleared Nina derivatives, not upstream growth sprites. No new downloads/reference pixels/resampling."
+    },
+    "currentAtlas": {
+      "atlasSize": [
+        64,
+        96
+      ],
+      "frameSize": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "variants": 3,
+      "selection": "((floor(tile.x)*7 + floor(tile.y/2)*5) % 3 + 3) % 3; stable by position and independent of growth/time; fractional sign positions supported"
+    },
+    "followup_20260916T135406Z": {
+      "adaptations": "Six complete authored crown masks replace full/ripe cells: left-curling cup (11/12 rows), low spreading rosette (10/11 rows), taller right-curling cup (11/12 rows). Substantial sloping faces, unequal side heights/spreads, contiguous shaded undersides and foreground folds crossing the junction; exact native pixel rows in adapt.py. Full bottom aligns y30; ripe bottom aligns y29. Three atlas rows instead of two, each four 16x32 cells; x8/y30 root contact preserved. Third row reuses second early-stage construction. First two seedling/young cells byte-identical. Nina fan source [5,2,7,4] and buried shoulder [3,7,7,4] remain. Palette unchanged. Later masks are explicitly project-authored derivatives using cleared Nina material, not upstream Nina growth frames. No new source, reference pixels, resampling or permission assumptions."
+    },
+    "followup_20260916T142416Z": {
+      "adaptations": "Replace all six full/ripe masks with unequal bent faces, interrupted upper highlights, contiguous dark turning undersides and foreground faces occluding central insertions. Add [20,48,35] occlusion tone only at leaf junctions. Preserve three constructions, all early-stage pixels, 64x96 atlas, 16x32 frame geometry and x8/y30 contact. Full masks 12/11/12 rows; ripe 13/12/13 rows, bottom alignment unchanged. Exact authored native rows/placements in adapt.py. These are project-authored derivatives of cleared Nina material, not upstream growth sprites. Retained source cotyledon [5,2,7,4] and buried root shoulder [3,7,7,4], author/source URL/custom permission/source hashes unchanged. No reference pixels, new downloads or resampling."
+    },
+    "followup_20260916T145426Z": {
+      "adaptations": "Replace all six full/ripe masks with closed overlapping central leaf masses and five-pixel shared basal folds. Three unequal silhouettes, 64x96 atlas, 16x32 frames, palette, early stages and rooted contacts retained. Exact rows and placements in adapt.py. Project-authored derivatives of cleared Nina fragments, not upstream growth sprites. No new sources or reference pixels."
+    },
+    "followup_20260916T152436Z": {
+      "adaptations": "Six authored upright overlapping full/ripe masks replace curled cup silhouettes and round dark centers. Broad continuous upward leaf planes meet a compact three-pixel base; unequal heights 14/12/15 full and 15/13/16 ripe. Exact rows/placements in adapt.py. All three seedling/young rows verified byte-identical to integrated main; 16x32 geometry and stable selection retained. Nina cotyledon [5,2,7,4], buried shoulder [3,7,7,4], original source URL, author, custom permission and source hashes unchanged. These are project-authored derivatives using cleared Nina material, NOT upstream growth sprites. No traced/reference pixels or new downloads."
+    }
+  },
+  "files": {
+    "turnip-stages.png": "b42da8280cd61f2522fb714e06e8d660914f0205ce4e2eef655dba5fee718ff6",
+    "source-soil-patch.png": "b314936aa159897d989d47db35ee3e1b134c295bd0459c02c21564aed5d11f39",
+    "soil.png": "b3b3b917b4cb02ab23c405d84efd035a9188e7caf42449d5f91882aef7375cd7",
+    "ian-side-work.png": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c"
+  },
+  "sideHoe": {
+    "author": "Rafseazz and Ridgeside Village graphics contributors",
+    "sourceUrl": "https://github.com/Rafseazz/Ridgeside-Village-Mod/blob/1f3bf6d73039d4b7bec7c9d70a0a1e7ea971f6b9/Ridgeside%20Development/%5BCP%5D%20Ridgeside%20Village/Assets/Characters/Ian.png",
+    "retainedSource": "../ridgeside-character/source-Ian.png",
+    "sourceSha256": "0a25d5e6a1c031c7f246013f551b45f06051d9bb2073258635895c93406e11d7",
+    "cropXYWH": [
+      0,
+      224,
+      64,
+      32
+    ],
+    "frameSize": [
+      16,
+      32
+    ],
+    "anchor": [
+      8,
+      31
+    ],
+    "license": "CC-BY-SA-4.0",
+    "adaptations": "Four native side-working frames including attached tool, unmodified pixels for right facing; per-frame horizontal mirror for left. Down/up and watering use separately documented project-adapted body poses; see ../ridgeside-character/provenance.json. No invented source claim that these are vanilla farmer action frames.",
+    "runtimeStatus": "Historical source crop retained; runtime superseded by articulated side poses in src/character-poses.js in iteration 20260916T122336Z."
+  }
+}

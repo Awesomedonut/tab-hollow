@@ -1,0 +1,19 @@
+{
+  "origin": "http://127.0.0.1:6237",
+  "note": "Actual touchscreen taps: till, plant, water three days, sleep three nights, harvest, sell, reload. Only travel shortened by player relocation; no crop growth, time, day, inventory or save fixtures.",
+  "state": {
+    "day": 4,
+    "coins": 105,
+    "seeds": 11,
+    "sold": 1,
+    "harvest": 0,
+    "touch": 1,
+    "coarse": true,
+    "width": 390,
+    "scrollWidth": 390,
+    "scripts": [
+      "http://127.0.0.1:6237/assets/index-CuB6eO67.js"
+    ]
+  },
+  "errors": []
+}

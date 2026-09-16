@@ -1,0 +1,38 @@
+{
+  "implementationCommits": [
+    "231fbcbafb7b3afb08ca32076c744673ac7a8510",
+    "11430efc2c64e7e377386230af60073ce93e7d02"
+  ],
+  "mergedOriginMain": "5696640186739fd08b4367be4c7c1bff9dc36834",
+  "unitTests": {
+    "passed": 18,
+    "failed": 0
+  },
+  "playwright": {
+    "passed": 5,
+    "failed": 0,
+    "includes": [
+      "full desktop farming, selling, buying and reload",
+      "touch movement, till/plant/water, reset and corrupt-save recovery",
+      "action foot anchoring",
+      "all 128 pond frames: stable pier, dry bank and turf, opaque, seamless flow",
+      "soil wet/dry/cache joins"
+    ]
+  },
+  "additionalTouchCycle": "touch-gameplay.json",
+  "build": {
+    "servedScript": "http://127.0.0.1:5419/assets/index-zeXRnlKW.js",
+    "localPath": "dist/assets/index-zeXRnlKW.js",
+    "sha256": "703d254caf28f4c976a0ac48d493d39a31437942849c33b7a996a5d502fb56a4",
+    "servedBytesMatch": true
+  },
+  "sourceReproduction": "Original source PNG, TMX bank pairs/timing, output PNG SHA256 all verified by ops/build-ridgeside-terrain.py",
+  "inspection": "Opened final full desktop 1440x1000, 1440x810, genuine 390x844 touch, gameplay, grass/shore matched-scale comparisons and all four 32-frame contact sheets (128 frames / full 32-second cycle).",
+  "remaining": [
+    "Lawn patch vocabulary and some quiet pocket edges remain visible; not a strict terrain pass.",
+    "Southern native rock joins still angular, particularly side contacts.",
+    "1440x810 clips farmhouse roof.",
+    "Three empty starter beds, one crop species and smooth soil limit working-farm variety."
+  ],
+  "scope": "Azure VM worktree only; branch pushed, no deployment/main checkout edits, no external messaging or new source research."
+}

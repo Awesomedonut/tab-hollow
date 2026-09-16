@@ -1,0 +1,65 @@
+{
+  "origin": "http://127.0.0.1:5737",
+  "head": "6f7ba2b3c07e7b94de2453136102e7f58a2b929b",
+  "served": {
+    "/assets/native-farming/soil.png": {
+      "matchesBuild": true,
+      "sha256": "88e632c7c92dcc90fd3828d471de32dcf7bf1f63475210f376bd268fb0445b91"
+    },
+    "/assets/native-farming/turnip-stages.png": {
+      "matchesBuild": true,
+      "sha256": "442e1f8f07f8a3ad240cd66c45bf7fa1af1dbc7031229ead6227f447c5080115"
+    },
+    "/assets/native-farming/provenance.json": {
+      "matchesBuild": true,
+      "sha256": "c9e530c4bac67932b1e300040aadf0a167e02b7460d85dc12685ae362890c11c"
+    },
+    "/assets/native-farming/ian-side-work.png": {
+      "matchesBuild": true,
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c"
+    },
+    "/assets/index-fGtBxO-F.js": {
+      "matchesBuild": true,
+      "sha256": "3a41fa708d8abec9d488b1e973fd76dfe9d35975d277ef63f15242477859bb6e"
+    }
+  },
+  "soilAlphaUnchanged": true,
+  "atlasSize": [
+    256,
+    176
+  ],
+  "unchangedFiles": [
+    "turnip-stages.png",
+    "ian-side-work.png",
+    "source-soil-patch.png"
+  ],
+  "validation": {
+    "unitTests": 18,
+    "browserTests": 5,
+    "productionBuild": "pass",
+    "diffCheck": "pass",
+    "uiGrowthDays": [
+      2,
+      3
+    ],
+    "touch": {
+      "origin": "http://127.0.0.1:5737",
+      "note": "Actual touchscreen taps: till, plant, water three days, sleep three nights, harvest, sell, reload. Only travel shortened by player relocation; no crop growth, time, day, inventory or save fixtures.",
+      "state": {
+        "day": 4,
+        "coins": 105,
+        "seeds": 11,
+        "sold": 1,
+        "harvest": 0,
+        "touch": 1,
+        "coarse": true,
+        "width": 390,
+        "scrollWidth": 390,
+        "scripts": [
+          "http://127.0.0.1:5737/assets/index-fGtBxO-F.js"
+        ]
+      },
+      "errors": []
+    }
+  }
+}

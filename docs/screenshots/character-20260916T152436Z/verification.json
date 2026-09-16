@@ -1,0 +1,43 @@
+{
+  "origin": "http://127.0.0.1:7816",
+  "implementation": "54b704b52b0a0f3f06c61f245b6bd47a2123c201",
+  "earlyRowsIdentical": true,
+  "comparison": "Actual UI-grown crop screenshots captured at 3 screen pixels per native pixel; nearest-neighbor extraction to 1x and 4x. Only player travel shortened. No crop, inventory, time or day injection.",
+  "served": [
+    {
+      "file": "index.html",
+      "sha256": "458e12bdf993ad1b2ce729192df5f1fad67ab685b4426749c2855f91c2629a6b",
+      "matchesBuild": true
+    },
+    {
+      "file": "assets/native-farming/turnip-stages.png",
+      "sha256": "b42da8280cd61f2522fb714e06e8d660914f0205ce4e2eef655dba5fee718ff6",
+      "matchesBuild": true
+    },
+    {
+      "file": "assets/native-farming/soil.png",
+      "sha256": "b3b3b917b4cb02ab23c405d84efd035a9188e7caf42449d5f91882aef7375cd7",
+      "matchesBuild": true
+    },
+    {
+      "file": "assets/native-farming/ian-side-work.png",
+      "sha256": "ed06dc0696f04b6eca1ab1721646319e9b7585301b914296028351a0b563de0c",
+      "matchesBuild": true
+    },
+    {
+      "file": "assets/original-farm/hud-wood.svg",
+      "sha256": "589f28aaf69350506a6f307e0abc422859fb4db159da38b2524593a9468dc023",
+      "matchesBuild": true
+    },
+    {
+      "file": "assets/index-DZYgh0QS.js",
+      "sha256": "813e43d12c6fc0271a00ccc2c915f6e86b138f778e812dc47e53f9ec821eb374",
+      "matchesBuild": true
+    },
+    {
+      "file": "assets/index-BSvA0Rvh.css",
+      "sha256": "ea5bf2043308d692364cf5848b7acdd27cd05b579b56e5669b56647ec5a0b917",
+      "matchesBuild": true
+    }
+  ]
+}

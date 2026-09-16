@@ -1,0 +1,19 @@
+{
+  "nativeWalkingExact": true,
+  "nativeSideHoeExact": true,
+  "soilDryWetAlphaEqual": true,
+  "cropAtlasSize": [
+    64,
+    64
+  ],
+  "sourceIanSHA256": "0a25d5e6a1c031c7f246013f551b45f06051d9bb2073258635895c93406e11d7",
+  "checks": {
+    "unit": 18,
+    "browser": 5,
+    "build": "passed",
+    "gitDiffCheck": "passed"
+  },
+  "buildScript": "index-DvN0twMo.js",
+  "port": 5379,
+  "strictVisualAcceptance": false
+}

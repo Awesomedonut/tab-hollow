@@ -1,0 +1,13 @@
+
+> clover-hollow@0.1.0 build
+> vite build --outDir .artifacts/world-20260916T132356Z/build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 10 modules transformed.
+rendering chunks...
+computing gzip size...
+.artifacts/world-20260916T132356Z/build/index.html                  6.79 kB │ gzip:  2.87 kB
+.artifacts/world-20260916T132356Z/build/assets/index-Cyx8yazm.css  16.81 kB │ gzip:  4.59 kB
+.artifacts/world-20260916T132356Z/build/assets/index-CaKZ5Zb5.js   43.69 kB │ gzip: 18.28 kB
+✓ built in 292ms

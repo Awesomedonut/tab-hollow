@@ -1,0 +1,21 @@
+{
+  "origin": "http://127.0.0.1:5371",
+  "unitTests": "18/18 passed",
+  "browserTests": "4/4 passed; desktop farming/save, true touch controls/recovery, character actions, native pond animation/pier/dry grass",
+  "assetReproduction": "Original PNG and TMX and output hashes verified by ops/build-ridgeside-terrain.py",
+  "hashes": [
+    {
+      "url": "/assets/index-C7jNG6CI.js",
+      "status": 200,
+      "sha256": "53bf6fcd70977ac395e994add72fe8236d7ab39f41c4bca79ee10121997ca257",
+      "matchesBuiltBytes": true
+    },
+    {
+      "url": "/assets/ridgeside-terrain/terrain.png",
+      "status": 200,
+      "sha256": "f34372ed9e84546b6689cdd16c14b8f74066aad39981203ac36a1a54ce8ed79a",
+      "matchesBuiltBytes": true
+    }
+  ],
+  "remaining": "Lawn texture contrast/repetition; geometric south shore and repeated side foam; crop diversity and framing remain outside this increment"
+}

@@ -1,0 +1,26 @@
+{
+  "unitTests": "18/18 pass",
+  "browserTests": "5/5 pass",
+  "sourceReproduction": "source PNG, native TMX bank animation, output SHA256 verified",
+  "build": "index-DXHP6ujQ.js",
+  "servedFiles": [
+    {
+      "url": "http://127.0.0.1:5536/assets/ridgeside-terrain/terrain.png",
+      "sha256": "7d36fd08df13857b016ee0787e2ac723d25868889226e81c7c0c6d5471fa6b7a",
+      "matchesBuiltFile": true
+    },
+    {
+      "url": "http://127.0.0.1:5536/assets/index-DXHP6ujQ.js",
+      "sha256": "51683d8e9f8bd0142f8496b4de0acd10cc3f6b2e15e431105c273e9fa0ae8494",
+      "matchesBuiltFile": true
+    }
+  ],
+  "visualInspection": [
+    "fresh desktop 1440x1000",
+    "fresh desktop 1440x810",
+    "fresh genuine touch 390x844",
+    "native ground and 4x grass/west-edge/shore",
+    "all 128 built pond samples in four sheets"
+  ],
+  "strictVisualAcceptance": false
+}

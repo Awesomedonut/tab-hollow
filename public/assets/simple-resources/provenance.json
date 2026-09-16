@@ -1,0 +1,11 @@
+{
+  "title": "Simple Resources",
+  "author": "Azrashar / itsanette",
+  "source": "https://www.nexusmods.com/stardewvalley/mods/15026",
+  "mirror": "https://github.com/yuikazzz/BBStardewValleyMods",
+  "mirrorCommit": "fb6b879c76268c8529a6f96358f2d74f333e2c17",
+  "sourcePath": "[CP] Simple Resources/assets/Vanilla/springobjects.png",
+  "sha256": "06091ab877f16a0e8bf7e63ad105136fdd6dd34cfd03211a1103044a0ee485e5",
+  "modifications": "None; native source pixels drawn from existing sprite rectangles.",
+  "reuse": "Author explicitly permits conversion, modification and asset use with credit; noncommercial only."
+}
