@@ -1,5 +1,7 @@
 # Tab Hollow
 
+[Open Tab Hollow](https://awesomedonut.github.io/)
+
 A little farm for your new tab, starting from [Clover Hollow](https://github.com/Awesomedonut/clover-hollow).
 
 The farm is playable now: grow crops, finish quests, manage your inventory, and save your progress in the browser. The Brave extension and productivity features are still to come.
@@ -47,9 +49,9 @@ A few things need to work before this becomes an everyday new tab:
 
 ## Development
 
-All development, installs, builds, tests, commits, and pushes run on the Azure VM.
+Development can run locally or on the Azure VM.
 
-Project directory: /home/codex/projects/tab-hollow
+VM project directory: /home/codex/projects/tab-hollow
 
 Requires Node.js 22 or later.
 
@@ -77,3 +79,7 @@ Move with WASD or arrow keys. Select tools with 1–4, work with Space, and inte
 Copied from Clover Hollow revision a423a58 with fresh Git history. Asset licenses, credits, source provenance, and the inherited documentation remain included. See [asset credits](docs/ASSETS.md) and [in-game credits](public/credits.html).
 
 The inherited docs and ops directory describe the original Clover Hollow project and its infrastructure. They are historical references, not Tab Hollow deployment instructions.
+
+## Live site
+
+The web version runs at https://awesomedonut.github.io/. GitHub Pages serves the production build from [Awesomedonut.github.io](https://github.com/Awesomedonut/Awesomedonut.github.io). To deploy an update, build this project, copy dist/ into that repo, and push main. This hosted page is available now; the Brave new-tab extension is still planned.
