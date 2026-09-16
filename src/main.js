@@ -1,4 +1,6 @@
 import './style.css';
+import './shortcuts.css';
+import { initShortcuts } from './shortcuts.js';
 import { createGame, serialize, tick, move, act, interact, getNearbyInteraction } from './game.js';
 import { createRenderer } from './render.js';
 
@@ -9,6 +11,8 @@ try { saved = localStorage.getItem(SAVE_KEY); } catch { storageAvailable = false
 let game = createGame(saved), started = false, lastFrame = performance.now(), saveElapsed = 0, lastMessage = '', toastUntil = 0;
 let soundOn = false, audioContext = null, masterGain = null, ambientTimer = null;
 const keys = new Set();
+const modalOpen = () => Boolean(document.querySelector('dialog[open]'));
+initShortcuts({onOpen: () => keys.clear(), onNavigate: () => { keys.clear(); save(); }});
 const tools = [
   {id:'hoe', name:'Hoe', hint:'Prepare a patch of earth'},
   {id:'seeds', name:'Seeds', hint:'Plant a little possibility'},
@@ -35,7 +39,7 @@ function tone(frequency, duration=.1, volume=.045, delay=0, type='sine') {
   oscillator.connect(gain); gain.connect(masterGain); oscillator.start(at); oscillator.stop(at+duration+.02);
 }
 function ambient() {
-  if(document.hidden || !started || $('guide').open) return;
+  if(document.hidden || !started || modalOpen()) return;
   [261.63,329.63,392,523.25].forEach((frequency,i)=>tone(frequency,2.3,.018,i*.75));
   if(Math.random()>.4) { tone(1318,.12,.014,3); tone(1568,.14,.012,3.16); }
 }
@@ -50,7 +54,7 @@ async function toggleSound() {
 function notify(message) { lastMessage=message; $('toast').textContent=message; toastUntil=performance.now()+5500; $('toast').classList.remove('hidden'); }
 function selectTool(id) { game.selected=id; updateHUD(); save(); tone(440,.07,.02); }
 function perform(fn) {
-  if(!started || $('guide').open) return;
+  if(!started || modalOpen()) return;
   const result=fn();
   notify(game.message); save(); updateHUD();
   if(result) { const type=game.lastAction?.type; if(type==='harvest'||type==='sell'||type==='quest') { tone(523,.12); tone(659,.15,.04,.12); tone(784,.24,.04,.24); } else if(type==='sleep') { tone(392,.5); tone(523,.8,.03,.2); } else tone(type==='water'?740:330,.09,.03,0,type==='hoe'?'triangle':'sine'); }
@@ -112,7 +116,9 @@ document.querySelectorAll('[data-dir]').forEach(button=>{
 });
 window.addEventListener('keydown',event=>{
  if(event.key==='Escape') {keys.clear();return;}
- if(!started||$('guide').open||event.ctrlKey||event.metaKey||event.altKey) return;
+ if(event.target.closest('input, textarea, select, [contenteditable]')) return;
+ if(event.target.closest('button, a') && [' ', 'Enter'].includes(event.key)) return;
+ if(!started||modalOpen()||event.ctrlKey||event.metaKey||event.altKey) return;
  const key=event.key.toLowerCase();
  if(['arrowup','arrowdown','arrowleft','arrowright',' ','w','a','s','d'].includes(key))event.preventDefault();
  keys.add(key);
@@ -136,7 +142,7 @@ async function boot() {
  let hudElapsed=0;
  function frame(now) {
   const dt=Math.min((now-lastFrame)/1000,.05);lastFrame=now;
-  if(started&&!$('guide').open&&!document.hidden) {
+  if(started&&!modalOpen()&&!document.hidden) {
    const dx=Number(keys.has('d')||keys.has('arrowright'))-Number(keys.has('a')||keys.has('arrowleft'));
    const dy=Number(keys.has('s')||keys.has('arrowdown'))-Number(keys.has('w')||keys.has('arrowup'));
    move(game,dx,dy,dt);tick(game,dt);saveElapsed+=dt;hudElapsed+=dt;

@@ -1,0 +1,25 @@
+.shortcut-shelf{position:absolute;z-index:5;top:20px;left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100% - 560px);padding:10px 16px 12px;background:#213b2ee8;border:2px solid #668052;box-shadow:0 3px 0 #182d24, inset 0 1px #819868;color:#fff0c2;font-family:ValleyUI,monospace}
+.shortcut-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;font-size:10px;letter-spacing:1px;color:#c8d5ac;margin-bottom:8px}
+#shortcut-edit{background:none;color:#fff0c2;text-decoration:underline;text-underline-offset:3px;font-size:12px;padding:4px;letter-spacing:0;white-space:nowrap}
+.shortcut-list{display:flex;gap:8px;overflow-x:auto;padding:4px;scrollbar-width:thin;scrollbar-color:#b99151 #213b2e}
+.shortcut-chest{display:flex;flex-direction:column;align-items:center;gap:7px;width:84px;flex:0 0 84px;padding:3px 2px 5px;border-radius:2px}
+.chest-icon{display:block;position:relative;width:46px;height:34px;border:3px solid #45291c;background:linear-gradient(#f5c16a 0 4px,#b77838 4px 12px,#50301f 12px 15px,#bc7839 15px 21px,#9a572b 21px);box-shadow:inset 3px 0 #e6a64e,inset -3px 0 #7a4626,0 3px #11251c;transition:transform .12s}
+.chest-icon:before{content:"";position:absolute;inset:-3px 5px;border-left:4px solid #e4b963;border-right:4px solid #e4b963;box-shadow:inset 1px 0 #764824,1px 0 #764824}
+.chest-icon:after{content:"";position:absolute;width:9px;height:11px;left:15px;top:10px;background:#f7d77d;border:2px solid #593b22;box-shadow:inset 0 -3px #ae782c}
+.chest-label{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;text-shadow:1px 2px #10281d}
+.shortcut-chest:hover{background:#ffffff10}.shortcut-chest:hover .chest-icon{transform:translateY(-3px)}.shortcut-chest:focus-visible{outline-offset:0}.shortcut-chest:active .chest-icon{transform:translateY(1px)}
+#shortcut-notice{font-size:12px;max-width:280px;margin:8px 0 0}#shortcut-notice:empty{display:none}.shortcut-empty{font-size:14px;padding:12px 0}
+#shortcut-editor{width:min(660px,calc(100% - 30px))}
+.shortcut-description{font-size:20px;margin:8px 0 22px}
+.shortcut-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.8fr) auto;gap:12px;align-items:end;margin-bottom:14px}
+.shortcut-row label{display:flex;flex-direction:column;gap:5px;font-size:18px}
+.shortcut-row input{width:100%;min-width:0;font:16px system-ui,sans-serif;padding:10px 8px;border:2px solid #976137;background:#fff0c9;color:#51351f;border-radius:0}
+.shortcut-row input:focus-visible{outline:3px solid #486639;outline-offset:2px}
+.shortcut-remove,#shortcut-add,#shortcut-cancel{background:transparent;color:#633c25;padding:10px 3px;font-size:18px;text-decoration:underline;text-underline-offset:3px}
+#shortcut-add:disabled{opacity:.5;cursor:default}
+.shortcut-actions{display:flex;justify-content:flex-end;align-items:center;gap:24px;margin-top:20px}
+.shortcut-actions .primary-button{min-width:140px;font-size:22px;padding:9px 18px}
+#shortcut-error{font:16px/1.4 system-ui,sans-serif;color:#852c1c;margin:12px 0}#shortcut-error:empty{display:none}
+@media(max-width:1100px){.shortcut-shelf{top:185px;max-width:calc(100% - 40px)}}
+@media(max-width:700px){.shortcut-shelf{top:190px;padding:7px 10px 8px;max-width:calc(100% - 30px)}.shortcut-heading{margin-bottom:4px}.shortcut-chest{width:75px;flex-basis:75px;gap:5px}.shortcut-list{gap:4px}.chest-label{font-size:12px}.shortcut-row{grid-template-columns:minmax(0,1fr) auto;gap:8px}.shortcut-row label:nth-child(2){grid-column:1;grid-row:2}.shortcut-remove{grid-column:2;grid-row:2}.shortcut-description{font-size:19px}.shortcut-actions{gap:18px}}
+@media(prefers-reduced-motion:reduce){.chest-icon{transition:none}}

@@ -4,6 +4,16 @@ A little farm for your new tab, starting from [Clover Hollow](https://github.com
 
 The farm is playable now: grow crops, finish quests, manage your inventory, and save your progress in the browser. The Brave extension and productivity features are still to come.
 
+## Shortcut chests
+
+The chests at the top open websites with one click, even before you enter the farm. Links open in the current tab; Ctrl/Cmd-click works as usual.
+
+Use **Edit links** to name your chests and set their addresses. You can add up to eight, remove any you don't need, or start with none. Changes save in this browser and appear in other open Tab Hollow tabs.
+
+The repo includes a few examples in src/shortcuts.defaults.json. Personal links are stored as JSON in browser storage, separate from your farm save. Editing them in the page doesn't change any repo files or send them to a server. Clearing site data removes your saved links.
+
+JSON keeps the data separate from the UI; it doesn't make a file private. Anything committed to this public repo is public, so keep personal addresses out of the defaults file.
+
 ## Making it your Brave new tab
 
 Brave supports Chrome extensions that replace the new-tab page. The plan is to package Tab Hollow as a Manifest V3 extension, with the farm and its assets included in the download.

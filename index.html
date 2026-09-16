@@ -7,6 +7,11 @@
 <main class="game-shell">
 <canvas id="game" aria-label="Tab Hollow farm. Move with WASD or arrow keys, select tools with 1 to 4, and use Space to work." tabindex="0"></canvas>
 <div class="vignette"></div>
+<nav class="shortcut-shelf" aria-label="Website shortcuts">
+ <div class="shortcut-heading"><span>YOUR LITTLE CORNER</span><button id="shortcut-edit" type="button">Edit links</button></div>
+ <div id="shortcut-list" class="shortcut-list"></div>
+ <p id="shortcut-notice" role="status"></p>
+</nav>
 <div class="hud hidden" id="hud">
  <div class="day-card"><span class="sun-icon">☀</span><div><strong id="day-label">Monday, Spring 1</strong><span id="time-label">6:00 am <b>·</b> A beautiful day</span></div></div>
  <div class="resources"><div class="coin-pill"><span class="coin-icon">G</span><strong id="coins-label">80</strong></div><div class="energy-card"><span>ENERGY</span><div class="energy-track"><div id="energy-fill"></div></div><small id="energy-label">100 / 100</small></div></div>
@@ -26,5 +31,16 @@
 <footer class="site-footer"><span><i></i><span id="save-label">Your little escape, saved on this device.</span></span><div class="keyboard-hint"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move</span><span><kbd>1</kbd>–<kbd>4</kbd> tools</span><span><kbd>SPACE</kbd> use</span><span><kbd>E</kbd> interact</span></div><span>TAKE YOUR TIME. GROW SOMETHING.</span></footer>
 </div>
 <dialog id="guide"><button class="close-dialog" aria-label="Close field guide">×</button><span class="eyebrow">NOTES FROM THE VALLEY</span><h2>Your field guide</h2><p class="dialog-intro">Good things take a little tending.</p><div class="guide-grid"><article><b>01</b><h3>Make room to grow</h3><p>Walk to the garden below the cottage. Twelve turnips at different stages are already growing, and twelve empty plots are prepared. You have six seeds to plant. Plant there, or use the hoe to prepare more earth inside the corner stakes.</p></article><article><b>02</b><h3>A little water, every day</h3><p>Water your crops, then visit the cottage door to sleep. Turnips ripen after three watered nights.</p></article><article><b>03</b><h3>Bring in the harvest</h3><p>Use the harvest tool on ripe turnips. Take them to the shipping box beside your cottage to earn 25g each.</p></article><article><b>04</b><h3>Keep the good growing</h3><p>Buy 6 seeds for 30g at the village shop. Ship 12 turnips and earn 300g to complete your first chapter.</p></article></div><div class="guide-controls"><p><strong>WASD / arrows</strong> Move <strong>1–4</strong> Select tool <strong>Space / click nearby</strong> Use tool <strong>E</strong> Interact</p><p>On touch screens, use the direction pad and USE button. Your farm saves automatically on this browser. The day pauses while this guide is open.</p></div><div class="guide-bottom"><button id="resume-button" class="primary-button">Back to the fresh air <span>→</span></button><button id="reset-button" class="text-button">Start a new farm</button></div><div id="reset-confirm" class="hidden"><p>Start over? This replaces your saved farm on this device.</p><button id="confirm-reset" class="danger-button">Yes, start fresh</button><button id="cancel-reset" class="text-button">Keep my farm</button></div><p class="credits">Art by Ridgeside Village, Simple Foliage and community artists. <a href="/credits.html" target="_blank" rel="noopener">Full art credits</a>.</p></dialog>
-<script type="module" src="/src/main.js"></script>
+<dialog id="shortcut-editor" aria-labelledby="shortcut-title">
+<form id="shortcut-form">
+ <span class="eyebrow">A CHEST FOR EVERY STOP</span>
+ <h2 id="shortcut-title">Your shortcuts</h2>
+ <p class="shortcut-description">Click a chest to open its site. Your links stay in this browser.</p>
+ <div id="shortcut-rows"></div>
+ <button id="shortcut-add" type="button">+ Add a chest</button>
+ <p id="shortcut-error" role="alert"></p>
+ <div class="shortcut-actions"><button id="shortcut-cancel" type="button">Cancel</button><button type="submit" class="primary-button">Save links</button></div>
+</form>
+</dialog>
+<script type="module"  src="/src/main.js"></script>
 </body></html>
